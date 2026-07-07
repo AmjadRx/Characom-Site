@@ -30,11 +30,7 @@ export default async function FileDownload({ props }: BlockComponentProps) {
   return (
     <section className="section-pad">
       <div className="container-site">
-        {(p.kicker || p.heading) && (
-          <div className="mb-14">
-            <SectionHeader kicker={p.kicker} heading={p.heading} />
-          </div>
-        )}
+        <SectionHeader kicker={p.kicker} heading={p.heading} />
 
         <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {files.map((file, i) => {

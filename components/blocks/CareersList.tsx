@@ -34,11 +34,7 @@ export default async function CareersList({ props }: BlockComponentProps) {
   return (
     <section className="section-pad">
       <div className="container-site">
-        {(p.kicker || p.heading) && (
-          <div className="mb-14">
-            <SectionHeader kicker={p.kicker} heading={p.heading} />
-          </div>
-        )}
+        <SectionHeader kicker={p.kicker} heading={p.heading} />
 
         {items.length === 0 ? (
           <p className="max-w-xl text-stone">

@@ -31,11 +31,7 @@ export default async function LogoWall({ props }: BlockComponentProps) {
   return (
     <section className="section-pad">
       <div className="container-site">
-        {(p.kicker || p.heading) && (
-          <div className="mb-14">
-            <SectionHeader kicker={p.kicker} heading={p.heading} />
-          </div>
-        )}
+        <SectionHeader kicker={p.kicker} heading={p.heading} />
 
         <ul className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
           {logos.map((logo, i) => {

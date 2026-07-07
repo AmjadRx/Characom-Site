@@ -43,11 +43,7 @@ export default async function TeamGrid({ props }: BlockComponentProps) {
   return (
     <section className="section-pad">
       <div className="container-site">
-        {(p.kicker || p.heading) && (
-          <div className="mb-14">
-            <SectionHeader kicker={p.kicker} heading={p.heading} />
-          </div>
-        )}
+        <SectionHeader kicker={p.kicker} heading={p.heading} />
 
         <ul className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {members.map((member, i) => {

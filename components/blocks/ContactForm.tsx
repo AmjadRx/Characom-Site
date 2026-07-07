@@ -18,11 +18,7 @@ export default async function ContactForm({ props }: BlockComponentProps) {
     <section className="section-pad">
       <div className="container-site">
         <div className="mx-auto max-w-3xl">
-          {(p.heading || p.text) && (
-            <div className="mb-12">
-              <SectionHeader heading={p.heading} text={p.text} />
-            </div>
-          )}
+          <SectionHeader heading={p.heading} text={p.text} />
           <ContactFormClient />
         </div>
       </div>
