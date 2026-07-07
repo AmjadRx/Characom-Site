@@ -2,7 +2,6 @@ import Link from "next/link";
 import type { BlockComponentProps } from "@/components/blocks/registry";
 import type { LinkProps } from "@/lib/blocks/defs";
 import { getSettings } from "@/lib/content";
-import { cn } from "@/lib/utils";
 import { KenBurns, MorphButton, Reveal, SplitTextReveal } from "@/components/motion";
 import HeroContentClient from "./client/HeroContentClient";
 import HeroParticlesClient from "./client/HeroParticlesClient";
