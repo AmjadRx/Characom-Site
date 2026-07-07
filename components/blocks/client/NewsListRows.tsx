@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useMotionValue, useSpring } from "framer-motion";

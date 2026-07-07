@@ -81,7 +81,7 @@ export default function Lightbox({ images, openIndex, onClose }: LightboxProps) 
           root.querySelectorAll<HTMLElement>(
             'button, [href], [tabindex]:not([tabindex="-1"])',
           ),
-        ).filter((el) => !el.hasAttribute("disabled"));
+        ).filter((el) => !el.hasAttribute("disabled") && el.tabIndex >= 0);
         if (focusables.length === 0) return;
         const first = focusables[0];
         const last = focusables[focusables.length - 1];
