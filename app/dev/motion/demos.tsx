@@ -17,13 +17,14 @@ export function MorphButtonDemo() {
   const timers = useRef<number[]>([]);
 
   useEffect(() => {
-    const pending = timers.current;
-    return () => pending.forEach((t) => window.clearTimeout(t));
+    // Read the ref at cleanup time — `simulate` replaces its contents.
+    return () => timers.current.forEach((t) => window.clearTimeout(t));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const simulate = () => {
     timers.current.forEach((t) => window.clearTimeout(t));
-    timers.current = [];
+    timers.current.length = 0;
     setSuccess(false);
     setLoading(true);
     timers.current.push(

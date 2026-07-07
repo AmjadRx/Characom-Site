@@ -79,7 +79,7 @@ export default function PinnedScene({
         className={
           horizontal
             ? "flex h-screen flex-col justify-center overflow-hidden"
-            : undefined
+            : "section-pad"
         }
       >
         {heading ? (

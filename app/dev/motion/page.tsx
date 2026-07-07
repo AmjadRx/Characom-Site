@@ -372,7 +372,7 @@ export default function MotionPlaygroundPage() {
 
         {/* ── 8 · PinnedScene ─────────────────────────────────────────────── */}
         <PinnedScene
-          className="bg-plaster py-24 lg:py-0"
+          className="bg-plaster"
           heading={
             <Header
               kicker="PinnedScene"
