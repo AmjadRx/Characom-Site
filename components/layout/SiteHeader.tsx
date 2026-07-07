@@ -168,7 +168,7 @@ export default function SiteHeader({ nav, settings, social }: SiteHeaderProps) {
           barBg,
           overDark && "on-dark",
           mounted
-            ? "transition-[height,background-color,color,backdrop-filter] duration-500 [transition-timing-function:var(--ease-out-expo)]"
+            ? "transition-[height,background-color,color,backdrop-filter] duration-[var(--dur-base)] [transition-timing-function:var(--ease-out-expo)]"
             : "transition-none",
         )}
         style={{
@@ -186,7 +186,7 @@ export default function SiteHeader({ nav, settings, social }: SiteHeaderProps) {
               className={cn(
                 "block origin-left",
                 mounted &&
-                  "transition-transform duration-500 [transition-timing-function:var(--ease-out-expo)]",
+                  "transition-transform duration-[var(--dur-base)] [transition-timing-function:var(--ease-out-expo)]",
                 scrolled && "scale-[0.85]",
               )}
             >

@@ -43,15 +43,18 @@ export default function FullscreenMenu({
   const closeRef = useRef<HTMLButtonElement | null>(null);
   const previouslyFocused = useRef<HTMLElement | null>(null);
 
-  /* Scroll lock — plays nice with Lenis via its own stop class, plus a
-     plain overflow lock for native scrolling. */
+  /* Scroll lock — a `menu-open` body class (styling/coordination hook),
+     Lenis's own stop class on <html>, plus a plain overflow lock for native
+     scrolling. The overlay itself scrolls via data-lenis-prevent. */
   useEffect(() => {
     if (!open) return;
     const html = document.documentElement;
     const prevOverflow = html.style.overflow;
+    document.body.classList.add("menu-open");
     html.classList.add("lenis-stopped");
     html.style.overflow = "hidden";
     return () => {
+      document.body.classList.remove("menu-open");
       html.classList.remove("lenis-stopped");
       html.style.overflow = prevOverflow;
     };
