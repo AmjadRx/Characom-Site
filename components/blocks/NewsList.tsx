@@ -35,11 +35,12 @@ export default async function NewsList({ props }: BlockComponentProps) {
   return (
     <section className="section-pad">
       <div className="container-site">
-        <div className="mb-12 flex flex-wrap items-end justify-between gap-6">
-          {(p.kicker || p.heading) && (
-            <SectionHeader kicker={p.kicker} heading={p.heading} />
-          )}
-          {p.showAllLink !== false && (
+        <SectionHeader kicker={p.kicker} heading={p.heading} />
+
+        <NewsListRows rows={rows} />
+
+        {p.showAllLink !== false && (
+          <div className="mt-10 flex justify-end">
             <Link
               href="/news"
               className="link-underline inline-flex items-center gap-2 pb-1 text-sm font-semibold uppercase tracking-[0.14em] text-gold-deep"
@@ -58,10 +59,8 @@ export default async function NewsList({ props }: BlockComponentProps) {
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
             </Link>
-          )}
-        </div>
-
-        <NewsListRows rows={rows} />
+          </div>
+        )}
       </div>
     </section>
   );

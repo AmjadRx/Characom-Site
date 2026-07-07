@@ -117,7 +117,7 @@ export default async function FeaturedProjects({ props }: BlockComponentProps) {
       <PinnedScene
         heading={
           p.kicker || p.heading ? (
-            <div className="container-site pb-12 pt-[var(--section-pad)]">
+            <div className="container-site pt-[var(--section-pad)]">
               <SectionHeader kicker={p.kicker} heading={p.heading} dark />
             </div>
           ) : undefined

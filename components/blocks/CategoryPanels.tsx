@@ -57,7 +57,7 @@ export default async function CategoryPanels({ props }: BlockComponentProps) {
   return (
     <section className="pb-[var(--section-pad)]">
       {(p.kicker || p.heading) && (
-        <div className="container-site pb-12 pt-[var(--section-pad)]">
+        <div className="container-site pt-[var(--section-pad)]">
           <SectionHeader kicker={p.kicker} heading={p.heading} />
         </div>
       )}
