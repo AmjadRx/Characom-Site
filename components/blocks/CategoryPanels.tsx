@@ -46,7 +46,7 @@ function themeVars(theme: ThemeColor): React.CSSProperties {
  * and hovering one panel dims its siblings (pure CSS — no client wrapper).
  */
 export default async function CategoryPanels({ props }: BlockComponentProps) {
-  const p = props as CategoryPanelsProps;
+  const p = props as unknown as CategoryPanelsProps;
   const categories = await getCategories();
   if (categories.length === 0) return null;
 

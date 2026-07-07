@@ -17,7 +17,7 @@ interface NewsListProps {
  * "All news" link appears when enabled.
  */
 export default async function NewsList({ props }: BlockComponentProps) {
-  const p = props as NewsListProps;
+  const p = props as unknown as NewsListProps;
   const limit =
     typeof p.limit === "number" && p.limit > 0 ? Math.min(p.limit, 24) : 3;
   const posts = await getNews(limit);

@@ -22,7 +22,7 @@ interface LogoWallProps {
  * missing, the partner name renders as a display-type placeholder chip.
  */
 export default async function LogoWall({ props }: BlockComponentProps) {
-  const p = props as LogoWallProps;
+  const p = props as unknown as LogoWallProps;
   const logos = (Array.isArray(p.logos) ? p.logos : []).filter(
     (l) => l && (l.name || l.image?.src),
   );

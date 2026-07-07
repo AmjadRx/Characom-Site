@@ -19,7 +19,7 @@ interface CareersListProps {
  * passed into the client accordion as ReactNodes.
  */
 export default async function CareersList({ props }: BlockComponentProps) {
-  const p = props as CareersListProps;
+  const p = props as unknown as CareersListProps;
   const positions = await getOpenPositions();
 
   const items: CareersListItem[] = positions.map((position) => ({

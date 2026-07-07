@@ -34,7 +34,7 @@ function initials(name: string): string {
  * same disclosure via :focus-within.
  */
 export default async function TeamGrid({ props }: BlockComponentProps) {
-  const p = props as TeamGridProps;
+  const p = props as unknown as TeamGridProps;
   const members = (Array.isArray(p.members) ? p.members : []).filter(
     (m) => m && m.name,
   );

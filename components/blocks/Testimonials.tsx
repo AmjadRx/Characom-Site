@@ -15,7 +15,7 @@ interface TestimonialsProps {
  * (pauses on hover/focus), dot + arrow controls, carousel aria semantics.
  */
 export default async function Testimonials({ props }: BlockComponentProps) {
-  const p = props as TestimonialsProps;
+  const p = props as unknown as TestimonialsProps;
   const items = (Array.isArray(p.items) ? p.items : []).filter((item) =>
     item?.quote?.trim(),
   );

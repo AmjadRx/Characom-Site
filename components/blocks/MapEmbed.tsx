@@ -12,7 +12,7 @@ interface MapEmbedProps {
  * falls back to Site Settings; renders nothing when neither is set.
  */
 export default async function MapEmbed({ props }: BlockComponentProps) {
-  const p = props as MapEmbedProps;
+  const p = props as unknown as MapEmbedProps;
   const settings = await getSettings();
   const src = p.embedUrl || settings.integrations.mapEmbedUrl || "";
   if (!src) return null;

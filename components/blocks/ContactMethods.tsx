@@ -21,7 +21,7 @@ function telHref(phone: string): string {
  * enabled.
  */
 export default async function ContactMethods({ props }: BlockComponentProps) {
-  const p = props as ContactMethodsBlockProps;
+  const p = props as unknown as ContactMethodsBlockProps;
   const settings = await getSettings();
   const { phones, emails, fax, offices } = settings.contact;
 

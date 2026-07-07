@@ -19,7 +19,7 @@ interface FeaturedProjectsProps {
  * name + location and a full-slide "view case study" link.
  */
 export default async function FeaturedProjects({ props }: BlockComponentProps) {
-  const p = props as FeaturedProjectsProps;
+  const p = props as unknown as FeaturedProjectsProps;
   const limit =
     typeof p.limit === "number" && p.limit > 0 ? Math.min(p.limit, 8) : 5;
 

@@ -21,7 +21,7 @@ interface FileDownloadProps {
  * new tab.
  */
 export default async function FileDownload({ props }: BlockComponentProps) {
-  const p = props as FileDownloadProps;
+  const p = props as unknown as FileDownloadProps;
   const files = (Array.isArray(p.files) ? p.files : []).filter(
     (f) => f && f.label && f.href,
   );

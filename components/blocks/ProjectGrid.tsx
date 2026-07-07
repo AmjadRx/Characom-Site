@@ -16,7 +16,7 @@ interface ProjectGridProps {
  * list and hands a plain serializable array to the client FLIP grid.
  */
 export default async function ProjectGrid({ props, ctx }: BlockComponentProps) {
-  const p = props as ProjectGridProps;
+  const p = props as unknown as ProjectGridProps;
   const categorySlug = p.categorySlug || ctx.categorySlug || "";
 
   const [projects, categories] = await Promise.all([

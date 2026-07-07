@@ -12,7 +12,7 @@ interface ContactFormProps {
  * with honeypot + time-trap anti-spam and a morphing submit button.
  */
 export default async function ContactForm({ props }: BlockComponentProps) {
-  const p = props as ContactFormProps;
+  const p = props as unknown as ContactFormProps;
 
   return (
     <section className="section-pad">
