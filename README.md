@@ -1,119 +1,63 @@
-# Cyfield Group — Motion-rich concept redesign
+# CHARACOM GROUP — Website
 
-A premium, highly graphic, fully responsive redesign of [cyfieldgroup.com](https://www.cyfieldgroup.com/) — rebuilt as a fast, static, multi-page site with GSAP-driven motion. No build step, no framework, deploys anywhere (GitHub Pages included).
+Ultra-premium, cinematic marketing site + self-serve admin CMS for Characom
+Group. Built to `docs/ARCHITECTURE.md` with one amendment: the stack is
+**Vercel + GitHub only** — the GitHub repository is the database.
 
-**Palette:** deep terracotta + warm ink/black + bone. **Type:** Space Grotesk (display) + Inter (body). **Motion:** GSAP + ScrollTrigger + Lenis smooth scroll.
+- **Framework:** Next.js 15 (App Router) · TypeScript strict · Tailwind CSS v4
+- **Motion:** GSAP 3 + ScrollTrigger · Framer Motion · Lenis · SplitType
+- **Content:** JSON in [`/content`](content) — read via local fs in dev, via
+  the GitHub Contents API in production; publishes revalidate instantly, no
+  redeploy
+- **Admin:** `/admin` — block-based page builder, projects/news/careers CRUD,
+  media library, navigation editor, settings, inquiries inbox, audit log
 
----
-
-## Pages
-
-| File | Page | Highlights |
-|------|------|-----------|
-| `index.html` | **Home** | 100vh hero with cross-fading slideshow + animated particle canvas, split-line title reveal, animated **stat counters** (5k+ customers, 400+ developments, 700+ employees…), sectors, company paragraph, landmark feature, project preview, news, regions, CTA |
-| `portfolio.html` | **Portfolio** | Pick a **category** (Government & Infrastructure · Real Estate · Residential · Energy) → it filters/reveals the project grid. Tilt + glow cards, slide-in **detail lightbox** with project metadata |
-| `contact.html` | **Get in touch** | Phone, toll-free, **email**, **fax**, address cards, animated floating-label form with success state, dark map embed, office list |
-| `about.html` | **About** (bonus) | Story timeline (1990 → today), values, leadership, compact stats |
-
-## Structure
-
-```
-Characom Site/
-├── index.html
-├── portfolio.html
-├── contact.html
-├── about.html
-├── css/
-│   └── style.css        # full design system + all components
-├── js/
-│   └── main.js          # GSAP, counters, nav, hero, portfolio filter, lightbox, cursor…
-├── README.md
-└── .gitignore
-```
-
-## Run locally
-
-Just open `index.html` in a browser. For best results (so smooth-scroll and relative paths behave exactly like production) serve it:
+## Quick start
 
 ```bash
-# from inside the project folder
-python -m http.server 8000
-# then open http://localhost:8000
+npm install
+npm run dev
 ```
 
-## Motion & interaction
+Open http://localhost:3000 — the site runs entirely from the committed demo
+content. Admin: http://localhost:3000/admin (dev login:
+`admin@characom.dev` / `characom`; local edits write straight to `/content`).
 
-- Preloader with counting number, sticky **nav that shrinks** on scroll, scroll-progress bar
-- Scroll-triggered reveals (fade / rise / clip / scale), staggered groups, parallax
-- Animated **number counters** that fire when scrolled into view
-- Hero: crossfading Ken-Burns slideshow + connected-particle canvas
-- Buttons **morph** (square → rounded) with a terracotta wipe + magnetic pull
-- Project cards **tilt in 3D** and glow toward the cursor
-- Custom cursor (desktop), running marquee, mobile full-screen menu
-- Fully keyboard/`Esc`-closable lightbox
-- Respects `prefers-reduced-motion` and degrades gracefully if a CDN fails
+## Deploy (Vercel + GitHub)
 
-## Tech / dependencies (all via CDN — nothing to install)
+1. Import this repo in Vercel (framework auto-detected).
+2. Set environment variables (see [`.env.example`](.env.example)):
+   - `AUTH_SECRET` — `openssl rand -base64 32`
+   - `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH` — `node scripts/hash-password.mjs "your-password"`
+   - `GITHUB_TOKEN` — fine-grained PAT with **Contents: Read & write** on this repo
+   - `GITHUB_REPO` (e.g. `AmjadRx/Characom-Site`), `GITHUB_BRANCH` (`main`)
+   - `NEXT_PUBLIC_SITE_URL`, `REVALIDATE_SECRET`
+   - optional: `RESEND_API_KEY`, `INQUIRY_NOTIFY_EMAIL`
+3. Deploy. Admin publishes commit to GitHub and revalidate the live site in
+   seconds — code deploys only happen when code changes.
 
-- [GSAP 3.12](https://gsap.com/) + ScrollTrigger — `cdnjs.cloudflare.com`
-- [Lenis](https://github.com/darkroomengineering/lenis) smooth scroll — `cdn.jsdelivr.net` (optional; native scroll used if it fails)
-- Google Fonts: Space Grotesk + Inter
+> **Privacy note:** contact-form inquiries are stored as JSON in
+> `content/inquiries/`. Keep the repository **private**, or configure
+> email-only notifications.
 
-## Images
+## Project structure
 
-All imagery uses free Unsplash photos with an automatic fallback (`onerror` → Lorem Picsum) so **nothing ever renders as a broken box**. To use your own photos, drop them in an `images/` folder and swap the `src` on each `<img>`. Search `unsplash.com` in the HTML to find every image reference.
-
-## Customize
-
-- **Colors / fonts / spacing:** edit the `:root` tokens at the top of `css/style.css` (`--terra`, `--ink`, `--bone`, `--font-display`, …). Change `--terra` once to re-skin the whole site.
-- **Content:** copy is plain text in the HTML files.
-- **Stats:** edit the `data-count="…"` attribute on each `.stat` in `index.html`.
-- **Projects:** each card in `portfolio.html` carries `data-cat`, `data-title`, `data-location`, `data-year`, `data-type`, `data-status`, `data-desc`, `data-img` — edit those and the filter/lightbox update automatically. Update the counts in the `.filter` buttons and `.cat` blocks if you add/remove projects.
-- **Contact form:** currently front-end only (shows a success state). To actually receive messages, point the `<form>` at [Formspree](https://formspree.io/) / [Getform](https://getform.io/) or your backend.
-
----
-
-## Push to your GitHub repo
-
-This folder is already a git repository with an initial commit. Connect it to your existing repo and push:
-
-```bash
-cd "Characom Site"
-
-# point at YOUR repo (replace the URL)
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git branch -M main
-git push -u origin main
+```
+app/(site)/        public routes (block-rendered from /content)
+app/admin/         CMS (auth-gated, noindex)
+app/api/           auth, admin CRUD, inquiries, media, preview, revalidate
+components/blocks/ one component per block type + registry
+components/motion/ Reveal, SplitTextReveal, Counter, TiltCard, MorphButton…
+components/layout/ nav, fullscreen menu, footer, preloader, cursor
+components/admin/  page builder, media library, nav editor, inbox
+content/           ← the database (JSON, committed)
+lib/               content store, block schemas, auth, motion constants
+docs/              ARCHITECTURE.md (spec) · CONTRACTS.md · ADMIN-GUIDE.md
 ```
 
-If your repo **already has commits** (e.g. a README created on GitHub) and the push is rejected, either:
+## Content & placeholders
 
-```bash
-git pull origin main --allow-unrelated-histories   # merge, resolve, then push
-# — or, to overwrite the remote with this site (only if the repo is empty/disposable):
-git push -u origin main --force
-```
-
-## Deploy free on GitHub Pages
-
-1. Push to GitHub (above).
-2. Repo **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
-3. Branch: `main`, folder: `/ (root)` → **Save**.
-4. Your site goes live at `https://<your-username>.github.io/<your-repo>/` in ~1 minute.
-
----
-
-## Ideas to make it richer (suggested extra pages)
-
-The current build covers Home, Portfolio, Get-in-touch and About. Natural next pages, in priority order:
-
-1. **Project detail pages** — turn the lightbox into full pages (gallery, spec sheet, map, related projects). Strongest SEO + shareability win.
-2. **Services / Sectors** — one page each for Real Estate, Contracting, Energy explaining the offer and process.
-3. **Newsroom / Blog** — an index + article template (the home page already teases news).
-4. **Careers / Join our team** — culture, open roles, application form.
-5. **Search Properties** — a filterable listings page (type, location, budget, status) like the original.
-6. **Investment / Residency programmes** — Cyprus Permanent Residence, Greece Golden Visa explainers.
-7. **Sustainability / ESG** — ties into the Energy story.
-8. **FAQ**, **Privacy Policy**, **Cookie Policy** — trust + compliance.
-
-Every one of these can reuse the existing components (page hero, cards, split, stats, timeline, CTA, footer), so they're fast to add.
+All demo content (3 categories, 9 projects, news, team, stats) is clearly
+placeholder — replace via `/admin` per `docs/ADMIN-GUIDE.md`. Never publish
+fabricated figures: update stats, founding year, and contact details in
+Admin → Settings before launch.
