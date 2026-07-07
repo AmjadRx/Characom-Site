@@ -40,8 +40,8 @@ export default function FloatingSelect({
           className={cn(
             "peer w-full cursor-pointer appearance-none border-0 border-b bg-transparent px-0 pb-2.5 pr-8 pt-5",
             "text-base text-inherit outline-none transition-colors duration-300",
-            "border-ink/25",
-            "[.on-dark_&]:border-white/25 [.on-dark_&]:[&>option]:text-ink",
+            "border-ink/25 [&_option]:text-ink",
+            "[.on-dark_&]:border-white/25",
             "aria-[invalid=true]:border-[#b3261e]",
             "disabled:cursor-not-allowed disabled:opacity-50",
           )}
