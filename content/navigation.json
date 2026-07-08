@@ -1,0 +1,203 @@
+{
+  "header": [
+    {
+      "id": "nav-1",
+      "menu": "header",
+      "label": "Home",
+      "href": "/",
+      "newTab": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "nav-2",
+      "menu": "header",
+      "label": "Portfolio",
+      "href": "/portfolio",
+      "newTab": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "nav-3",
+      "menu": "header",
+      "label": "Sectors",
+      "href": "/portfolio",
+      "newTab": false,
+      "sortOrder": 3,
+      "children": [
+        {
+          "id": "nav-3-1",
+          "menu": "header",
+          "label": "Government & Infrastructure",
+          "href": "/portfolio/government-infrastructure",
+          "newTab": false,
+          "sortOrder": 1
+        },
+        {
+          "id": "nav-3-2",
+          "menu": "header",
+          "label": "Real Estate Development",
+          "href": "/portfolio/real-estate",
+          "newTab": false,
+          "sortOrder": 2
+        },
+        {
+          "id": "nav-3-3",
+          "menu": "header",
+          "label": "Residential",
+          "href": "/portfolio/residential",
+          "newTab": false,
+          "sortOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "nav-4",
+      "menu": "header",
+      "label": "About",
+      "href": "/about",
+      "newTab": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "nav-5",
+      "menu": "header",
+      "label": "News",
+      "href": "/news",
+      "newTab": false,
+      "sortOrder": 5
+    },
+    {
+      "id": "nav-6",
+      "menu": "header",
+      "label": "Contact",
+      "href": "/contact",
+      "newTab": false,
+      "sortOrder": 6
+    }
+  ],
+  "footer_1": [
+    {
+      "id": "nav-f1-1",
+      "menu": "footer_1",
+      "label": "Government & Infrastructure",
+      "href": "/portfolio/government-infrastructure",
+      "newTab": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "nav-f1-2",
+      "menu": "footer_1",
+      "label": "Real Estate Development",
+      "href": "/portfolio/real-estate",
+      "newTab": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "nav-f1-3",
+      "menu": "footer_1",
+      "label": "Residential",
+      "href": "/portfolio/residential",
+      "newTab": false,
+      "sortOrder": 3
+    }
+  ],
+  "footer_2": [
+    {
+      "id": "nav-f2-1",
+      "menu": "footer_2",
+      "label": "About",
+      "href": "/about",
+      "newTab": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "nav-f2-2",
+      "menu": "footer_2",
+      "label": "Careers",
+      "href": "/careers",
+      "newTab": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "nav-f2-3",
+      "menu": "footer_2",
+      "label": "Certifications",
+      "href": "/certifications",
+      "newTab": false,
+      "sortOrder": 3
+    },
+    {
+      "id": "nav-f2-4",
+      "menu": "footer_2",
+      "label": "Partners",
+      "href": "/partners",
+      "newTab": false,
+      "sortOrder": 4
+    },
+    {
+      "id": "nav-f2-5",
+      "menu": "footer_2",
+      "label": "News",
+      "href": "/news",
+      "newTab": false,
+      "sortOrder": 5
+    }
+  ],
+  "footer_3": [
+    {
+      "id": "nav-f3-1",
+      "menu": "footer_3",
+      "label": "Privacy Policy",
+      "href": "/legal/privacy",
+      "newTab": false,
+      "sortOrder": 1
+    },
+    {
+      "id": "nav-f3-2",
+      "menu": "footer_3",
+      "label": "Terms of Use",
+      "href": "/legal/terms",
+      "newTab": false,
+      "sortOrder": 2
+    },
+    {
+      "id": "nav-f3-3",
+      "menu": "footer_3",
+      "label": "Cookie Policy",
+      "href": "/legal/cookies",
+      "newTab": false,
+      "sortOrder": 3
+    }
+  ],
+  "social": [
+    {
+      "id": "nav-s-1",
+      "menu": "social",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com/company/characom-group",
+      "newTab": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "nav-s-2",
+      "menu": "social",
+      "label": "Instagram",
+      "href": "https://instagram.com/characomgroup",
+      "newTab": true,
+      "sortOrder": 2
+    },
+    {
+      "id": "nav-s-3",
+      "menu": "social",
+      "label": "Facebook",
+      "href": "https://facebook.com/characomgroup",
+      "newTab": true,
+      "sortOrder": 3
+    }
+  ],
+  "footerColumnTitles": {
+    "footer_1": "Sectors",
+    "footer_2": "Company",
+    "footer_3": "Legal"
+  }
+}

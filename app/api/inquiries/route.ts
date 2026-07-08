@@ -74,8 +74,11 @@ export async function POST(req: Request): Promise<NextResponse> {
       createdAt: now,
     };
 
+    // Inquiries contain personal data. When the content repo is public, set
+    // INQUIRY_STORAGE=off to skip in-repo storage and rely on email only.
+    const storageEnabled = process.env.INQUIRY_STORAGE !== "off";
     let stored = false;
-    if (canWrite()) {
+    if (storageEnabled && canWrite()) {
       try {
         await saveInquiry(inquiry);
         stored = true;

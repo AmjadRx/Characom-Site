@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "about",
+    "title": "About the Group",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "careers",
+    "title": "Careers",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "certifications",
+    "title": "Certifications, Safety & Quality",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "contact",
+    "title": "Get in Touch",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "home",
+    "title": "Home",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "legal/cookies",
+    "title": "Cookie Policy",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "legal/privacy",
+    "title": "Privacy Policy",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "legal/terms",
+    "title": "Terms of Use",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "news",
+    "title": "Newsroom",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  },
+  {
+    "slug": "partners",
+    "title": "Partners & Clients",
+    "status": "published",
+    "updatedAt": "2026-07-08T00:36:44.094Z"
+  },
+  {
+    "slug": "portfolio",
+    "title": "Portfolio",
+    "status": "published",
+    "updatedAt": "2026-07-07T12:00:00.000Z"
+  }
+]

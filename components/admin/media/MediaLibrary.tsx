@@ -347,7 +347,7 @@ export default function MediaLibrary({
         ) : items.length === 0 ? (
           <EmptyState
             title={search ? "No files match your search" : "No media yet"}
-            message={
+            text={
               search
                 ? "Try a different name, alt text or tag."
                 : "Upload your first image with the dropzone above."

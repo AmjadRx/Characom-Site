@@ -106,7 +106,7 @@ export default function PagesListScreen() {
       ) : pages.length === 0 ? (
         <EmptyState
           title="No pages yet"
-          message="Create your first page to start composing blocks."
+          text="Create your first page to start composing blocks."
           action={
             <Button variant="primary" onClick={() => setCreateOpen(true)}>
               New page

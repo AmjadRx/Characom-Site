@@ -1,0 +1,73 @@
+{
+  "title": "Careers",
+  "slug": "careers",
+  "status": "published",
+  "seo": {
+    "title": "Careers — Characom Group",
+    "description": "Build your career with Characom Group. Open positions for engineers, surveyors and safety professionals across Cyprus."
+  },
+  "sections": [
+    {
+      "id": "sec-careers-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Careers",
+        "heading": "Build your career",
+        "subheading": "Work that will still be standing when you retire — and long after.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-careers-culture",
+      "type": "imageWithText",
+      "props": {
+        "kicker": "Life at Characom",
+        "heading": "We hire for character, then teach the rest",
+        "body": "A Characom site runs on three habits: say what you will do, write it down, do it. People who like that rhythm tend to stay — a third of our engineers have been with the group for more than a decade, and our foremen average twenty-two years on the tools.\n\nYou will work on projects worth pointing at from the highway, beside people who have built this island's bridges, archives and harbours. Training is paid, mentoring is formal, and every apprentice pours real concrete in their first month.\n\nWe promote from the site up. The current directors started as a site engineer, a cadet surveyor and a steel-fixer's apprentice — the ladder is real, and it starts below.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1920&auto=format&fit=crop",
+          "alt": "Colleagues collaborating around a table in a bright office"
+        },
+        "imageSide": "left",
+        "link": {
+          "label": "Meet the leadership",
+          "href": "/about",
+          "variant": "text",
+          "newTab": false
+        },
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-careers-list",
+      "type": "careersList",
+      "props": {
+        "kicker": "Join us",
+        "heading": "Open positions",
+        "emptyText": "No open positions right now — check back soon, or send us your CV anyway."
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-careers-cta",
+      "type": "ctaBand",
+      "props": {
+        "kicker": "Not on the list?",
+        "heading": "Good people never arrive on schedule",
+        "text": "Send your CV with a note on what you want to build — we read every one.",
+        "button": {
+          "label": "Apply via contact",
+          "href": "/contact",
+          "variant": "gold",
+          "newTab": false
+        }
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

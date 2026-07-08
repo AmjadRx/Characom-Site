@@ -13,14 +13,17 @@ export const EMPTY_IMAGE: ImageValue = { src: "", alt: "" };
 
 /**
  * Media library integration is intentionally loose (CONTRACTS.md): the media
- * library registers a global picker; when present, a Browse button appears.
+ * library registers `window.__characomMediaPicker`; when present, a Browse
+ * button appears. Accessed via a local cast (the media module owns the
+ * global's declaration) so this file has no hard dependency on it.
  */
-declare global {
-  interface Window {
-    __characomMediaPicker?: (
-      onPick: (image: { src: string; alt: string }) => void,
-    ) => void;
-  }
+type MediaPickerFn = (onPick: (image: { src: string; alt: string }) => void) => void;
+
+function getMediaPicker(): MediaPickerFn | undefined {
+  if (typeof window === "undefined") return undefined;
+  const picker = (window as unknown as { __characomMediaPicker?: unknown })
+    .__characomMediaPicker;
+  return typeof picker === "function" ? (picker as MediaPickerFn) : undefined;
 }
 
 export interface ImageFieldProps {
@@ -54,7 +57,7 @@ export function ImageField({
     let attempts = 0;
     const check = () => {
       if (cancelled) return;
-      if (typeof window.__characomMediaPicker === "function") {
+      if (getMediaPicker()) {
         setHasPicker(true);
         return;
       }
@@ -71,7 +74,7 @@ export function ImageField({
     onChange({ ...EMPTY_IMAGE, ...value, ...partial });
 
   const browse = () => {
-    window.__characomMediaPicker?.((image) => {
+    getMediaPicker()?.((image) => {
       onChange({ src: image.src, alt: hideAlt ? value.alt : image.alt });
     });
   };

@@ -1,0 +1,171 @@
+{
+  "title": "Partners & Clients",
+  "slug": "partners",
+  "status": "published",
+  "seo": {
+    "title": "Partners & Clients — Characom Group",
+    "description": "The developers, institutions and family businesses who build with Characom Group — many of them for the second, third or tenth time."
+  },
+  "sections": [
+    {
+      "id": "sec-partners-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Partners & clients",
+        "heading": "Built on repeat business",
+        "subheading": "Most of our work comes from people we have already built for — the only reference that matters.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-partners-logos",
+      "type": "logoWall",
+      "props": {
+        "kicker": "Selected clients",
+        "heading": "Who we build for",
+        "logos": [
+          {
+            "name": "Amara Bay Developments",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          },
+          {
+            "name": "Aegean Gate Holdings",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          },
+          {
+            "name": "Harbour Quarter JV",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          },
+          {
+            "name": "Elaia Living Ltd",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          },
+          {
+            "name": "Meridian Hospitality Group",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          },
+          {
+            "name": "Kyrenia Marine Ltd",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
+            "href": ""
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-partners-quotes",
+      "type": "testimonials",
+      "props": {
+        "kicker": "In their words",
+        "heading": "What partners say",
+        "items": [
+          {
+            "quote": "Characom handed over our headquarters four weeks early and then spent a day walking my facilities team through every valve in the building. They are the only contractor we shortlist by default.",
+            "author": "Marios Eliades",
+            "role": "Chief Executive, Aegean Gate Holdings"
+          },
+          {
+            "quote": "Seafront construction punishes shortcuts within five years. Amara Bay is our third project with Characom precisely because their buildings get better-looking as they age — and so do their final accounts.",
+            "author": "Despina Rousou",
+            "role": "Development Director, Amara Bay Developments"
+          },
+          {
+            "quote": "When the archaeologists stopped the piling, most contractors would have reached for the claims clause. Characom reached for a redesign. That is the difference between a builder and a partner.",
+            "author": "Costas Andreou",
+            "role": "Programme Director, Harbour Quarter JV"
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-partners-approach",
+      "type": "richText",
+      "props": {
+        "kicker": "How we partner",
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Open books, early warnings, shared upside"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We structure partnerships the way we pour foundations — for loads that arrive years later. Development partners see our cost ledgers in full, receive bad news the day we learn it, and share in the savings our precast yard and direct trades generate. Landowners can enter joint ventures with land as equity; institutions can contract us fixed-price with our balance sheet behind the number."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "What we ask in return is decided early: a single empowered point of contact, decisions inside agreed windows, and the mutual honesty that lets a thirty-month programme survive contact with reality. Partnerships built this way tend to outlast the buildings' defect periods — which, for us, is the point."
+                }
+              ]
+            }
+          ]
+        },
+        "maxWidth": "narrow",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-partners-cta",
+      "type": "ctaBand",
+      "props": {
+        "kicker": "Join them",
+        "heading": "Become a partner",
+        "text": "Land, capital or a project brief — bring one, and we will bring the rest.",
+        "button": {
+          "label": "Start the conversation",
+          "href": "/contact",
+          "variant": "gold",
+          "newTab": false
+        }
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-08T00:36:44.094Z"
+}

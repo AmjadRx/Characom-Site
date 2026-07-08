@@ -1,0 +1,177 @@
+{
+  "title": "Certifications, Safety & Quality",
+  "slug": "certifications",
+  "status": "published",
+  "seo": {
+    "title": "Certifications, Safety & Quality — Characom Group",
+    "description": "Characom Group's audited quality, environmental and safety systems: ISO 9001, ISO 14001, ISO 45001, safety record and tender credentials."
+  },
+  "sections": [
+    {
+      "id": "sec-cert-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Assurance",
+        "heading": "Certifications, Safety & Quality",
+        "subheading": "The paperwork behind the promise — audited, current, and open to any client who asks.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-body",
+      "type": "richText",
+      "props": {
+        "kicker": "How we assure",
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Public clients do not buy promises; they buy systems. Every Characom project — from a school extension to a harbour quarter — runs inside the same certified management framework, audited annually by independent bodies and inspected without notice by our own quality directorate."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": { "level": 2 },
+              "content": [
+                { "type": "text", "text": "Quality is a system, not a slogan" }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Our quality management system has been certified to ISO 9001 since 2018, covering estimating, engineering, procurement and construction across all three sectors. Every project carries an inspection and test plan signed before the first pour; every non-conformance is logged, costed and closed in a register the client may read at any time. The same discipline extends to our supply chain — key subcontractors are audited on our sites, against our standard, before they win a second package."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Environmental management (ISO 14001) governs how our sites handle waste, water, dust and noise — and drives the group's binding target of 40% recycled aggregate on public works by 2028. Occupational safety (ISO 45001) is the system we hold above all others: our HSE officers carry stop-work authority on every site, and use it. Certification numbers and current audit certificates are available to tender evaluation committees on request."
+                }
+              ]
+            }
+          ]
+        },
+        "maxWidth": "narrow",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-badges",
+      "type": "logoWall",
+      "props": {
+        "kicker": "Certified systems",
+        "heading": "Standards we are audited against",
+        "logos": [
+          {
+            "name": "ISO 9001 — Quality Management",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "ISO 14001 — Environmental Management",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "ISO 45001 — Occupational Health & Safety",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "EMAS — Eco-Management & Audit Scheme",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-stats",
+      "type": "statsCounters",
+      "props": {
+        "kicker": "Safety record",
+        "heading": "Numbers our clients can audit",
+        "useSiteStats": false,
+        "items": [
+          { "label": "LTI-free days", "value": 1240, "suffix": "+" },
+          { "label": "Safety audits / year", "value": 96, "suffix": "" },
+          { "label": "ISO certifications", "value": 3, "suffix": "" },
+          { "label": "Tender success rate", "value": 62, "suffix": "%" }
+        ],
+        "dark": true
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-files",
+      "type": "fileDownload",
+      "props": {
+        "kicker": "Downloads",
+        "heading": "Company documents",
+        "files": [
+          {
+            "label": "Company profile",
+            "href": "#",
+            "note": "PDF — upload via Admin → Media"
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-faq",
+      "type": "faq",
+      "props": {
+        "kicker": "For tender committees",
+        "heading": "Frequently asked in evaluation",
+        "items": [
+          {
+            "question": "Which certifications does Characom Group currently hold?",
+            "answer": "The group's management systems are certified to ISO 9001 (quality), ISO 14001 (environment) and ISO 45001 (occupational health and safety), with EMAS registration in progress. Current certificates, scopes and audit dates are supplied with every tender submission and available to evaluation committees on request."
+          },
+          {
+            "question": "Can Characom act as lead contractor on public works tenders?",
+            "answer": "Yes. Characom is registered with the Cyprus Council for the Registration and Control of Building and Civil Engineering Contractors in the classes required for major public building and civil engineering works, and has completed 85+ government contracts since 1999 as lead contractor."
+          },
+          {
+            "question": "How do we obtain pre-qualification documents?",
+            "answer": "Write to projects@characom.example.com or use the contact form with the tender reference. Our commercial team returns a complete pre-qualification pack — certificates, financial standing, plant schedules, key personnel CVs and reference projects — within three working days."
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cert-cta",
+      "type": "ctaBand",
+      "props": {
+        "kicker": "Tendering?",
+        "heading": "Put us on your shortlist",
+        "text": "Pre-qualification packs are returned within three working days.",
+        "button": {
+          "label": "Request documents",
+          "href": "/contact",
+          "variant": "gold",
+          "newTab": false
+        }
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

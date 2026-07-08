@@ -120,6 +120,7 @@ h4 {
 }
 
 .on-dark :focus-visible,
+.section-dark :focus-visible,
 [data-theme="dark"] :focus-visible {
   outline-color: var(--gold-bright);
 }
@@ -162,7 +163,8 @@ h4 {
   color: var(--accent-deep);
 }
 
-.on-dark .kicker--accent {
+.on-dark .kicker--accent,
+.section-dark .kicker--accent {
   color: var(--accent-bright);
 }
 
@@ -193,6 +195,9 @@ h4 {
   color: var(--plaster);
 }
 
+/* Film grain overlays the whole dark section (pointer-events: none, 2.5% —
+   the cinematic point). Children keep full control of their own stacking;
+   never force position/z-index on them (breaks Tailwind absolute utilities). */
 .section-dark::after {
   content: "";
   position: absolute;
@@ -200,12 +205,7 @@ h4 {
   pointer-events: none;
   opacity: 0.025;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
-  z-index: 1;
-}
-
-.section-dark > * {
-  position: relative;
-  z-index: 2;
+  z-index: 30;
 }
 
 /* Radial gold gradient mesh for hero / CTA sections on dark */

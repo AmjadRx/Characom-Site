@@ -1,0 +1,50 @@
+{
+  "title": "Portfolio",
+  "slug": "portfolio",
+  "status": "published",
+  "seo": {
+    "title": "Portfolio — Characom Group",
+    "description": "Selected Characom Group projects across Cyprus: government infrastructure, real estate development and residential communities."
+  },
+  "sections": [
+    {
+      "id": "sec-portfolio-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Our work",
+        "heading": "Portfolio",
+        "subheading": "Nine selected projects across three sectors — from motorway interchanges to seafront villas.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-portfolio-panels",
+      "type": "categoryPanels",
+      "props": {
+        "kicker": "Sectors",
+        "heading": "Choose a sector"
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-portfolio-cta",
+      "type": "ctaBand",
+      "props": {
+        "kicker": "Your project",
+        "heading": "The next case study could be yours",
+        "text": "Tell us what you are planning and we will tell you, honestly, how we would build it.",
+        "button": {
+          "label": "Get in touch",
+          "href": "/contact",
+          "variant": "gold",
+          "newTab": false
+        }
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

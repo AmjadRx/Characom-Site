@@ -1,0 +1,36 @@
+{
+  "title": "Newsroom",
+  "slug": "news",
+  "status": "published",
+  "seo": {
+    "title": "Newsroom — Characom Group",
+    "description": "Milestones, tender awards, sustainability commitments and community programmes from Characom Group across Cyprus."
+  },
+  "sections": [
+    {
+      "id": "sec-news-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "News & milestones",
+        "heading": "Newsroom",
+        "subheading": "Toppings-out, tenders and the quieter work in between.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-news-list",
+      "type": "newsList",
+      "props": {
+        "kicker": "",
+        "heading": "",
+        "limit": 24,
+        "showAllLink": false
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

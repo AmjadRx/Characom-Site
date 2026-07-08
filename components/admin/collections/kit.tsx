@@ -458,6 +458,11 @@ export function Drawer({
 
     const onKeyDown = (e: KeyboardEvent) => {
       if (drawerStack[drawerStack.length - 1] !== token) return;
+      // If the event originates inside a nested dialog (e.g. a confirm Modal
+      // stacked above this drawer), let that dialog handle Esc/Tab instead.
+      const target = e.target as HTMLElement | null;
+      const dialog = target?.closest?.('[role="dialog"]');
+      if (dialog && dialog !== panelRef.current) return;
       if (e.key === "Escape") {
         e.stopPropagation();
         onCloseRef.current();
