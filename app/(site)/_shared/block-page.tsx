@@ -14,17 +14,20 @@ import type { ThemeColor } from "@/lib/content/types";
 
 /** CSS custom-property override for category theming (--accent family). */
 export function themeVars(theme: ThemeColor): CSSProperties {
-  const vars: Record<string, string> = { "--accent": `var(--${theme})` };
   if (theme === "gold") {
-    vars["--accent-bright"] = "var(--gold-bright)";
-    vars["--accent-deep"] = "var(--gold-deep)";
-  } else {
-    // cypress / aegean have no dedicated bright/deep tokens — derive the
-    // bright variant, and both are dark enough to be AA text on plaster.
-    vars["--accent-bright"] = `color-mix(in srgb, var(--${theme}) 65%, white)`;
-    vars["--accent-deep"] = `var(--${theme})`;
+    return {
+      "--accent": "var(--gold)",
+      "--accent-bright": "var(--gold-bright)",
+      "--accent-deep": "var(--gold-deep)",
+    } as CSSProperties;
   }
-  return vars as CSSProperties;
+  // cypress / aegean have no dedicated bright/deep tokens — derive the
+  // bright variant; both base colors are dark enough for AA text on plaster.
+  return {
+    "--accent": `var(--${theme})`,
+    "--accent-bright": `color-mix(in srgb, var(--${theme}) 65%, white)`,
+    "--accent-deep": `var(--${theme})`,
+  } as CSSProperties;
 }
 
 interface SeoInput {

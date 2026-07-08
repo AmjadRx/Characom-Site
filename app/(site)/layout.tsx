@@ -49,7 +49,7 @@ export default async function SiteLayout({
       <Preloader logoText={settings.branding.logoText} />
       <a
         href="#main"
-        className="fixed left-4 top-4 z-[120] -translate-y-[200%] rounded-pill bg-ink px-5 py-3 text-sm font-semibold text-plaster opacity-0 transition-transform focus-visible:translate-y-0 focus-visible:opacity-100"
+        className="fixed left-4 top-4 z-[80] -translate-y-[200%] rounded-pill bg-ink px-5 py-3 text-sm font-semibold text-plaster opacity-0 transition-transform focus-visible:translate-y-0 focus-visible:opacity-100"
       >
         Skip to content
       </a>
