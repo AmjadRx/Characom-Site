@@ -76,6 +76,20 @@
       "visible": true
     },
     {
+      "id": "sec-scene-mansion",
+      "type": "constructionScene",
+      "props": {
+        "kicker": "How we build",
+        "heading": "A home, from the ground up",
+        "text": "One scroll through a Characom build: the crew arrives, the villa rises, the gardens grow, and a family moves in.",
+        "variant": "mansion",
+        "floors": 12,
+        "caption": "Scroll to build",
+        "reasons": []
+      },
+      "visible": true
+    },
+    {
       "id": "sec-home-sectors",
       "type": "sectorCards",
       "props": {
@@ -87,14 +101,65 @@
       "visible": true
     },
     {
-      "id": "sec-construction-scene",
+      "id": "sec-scene-tower",
       "type": "constructionScene",
       "props": {
-        "kicker": "The build, distilled",
-        "heading": "From ground to skyline",
-        "text": "Every Characom project follows the same disciplined ascent \u2014 scroll to raise one of ours.",
+        "kicker": "Twelve floors, twelve reasons",
+        "heading": "Why Cyprus builds with us",
+        "text": "",
+        "variant": "tower",
         "floors": 12,
-        "caption": "Scroll to raise the tower"
+        "caption": "Scroll to raise the tower",
+        "reasons": [
+          {
+            "title": "Best and safest materials only",
+            "text": "Every structural element is certified, traceable and tested before it reaches the site."
+          },
+          {
+            "title": "Delivery on programme, every time",
+            "text": "Four decades without a missed government handover date."
+          },
+          {
+            "title": "One accountable team",
+            "text": "Survey, engineering, construction and handover under a single roof."
+          },
+          {
+            "title": "In-house engineering and QA",
+            "text": "Our own engineers check every level before the next one rises."
+          },
+          {
+            "title": "Government-grade compliance",
+            "text": "The same tender-level controls apply to every private home we build."
+          },
+          {
+            "title": "Transparent costs",
+            "text": "Open-book budgets with no hidden extras, ever."
+          },
+          {
+            "title": "An industry-leading safety record",
+            "text": "Over 1,200 lost-time-incident-free days and counting."
+          },
+          {
+            "title": "Craftsmen who stay",
+            "text": "Site teams that have built with us for decades, not seasons."
+          },
+          {
+            "title": "Energy-smart designs",
+            "text": "Buildings engineered to cut running costs from day one."
+          },
+          {
+            "title": "Local supply chains",
+            "text": "Cypriot materials and partners mean faster lead times."
+          },
+          {
+            "title": "A ten-year structural warranty",
+            "text": "Standard on everything we hand over."
+          },
+          {
+            "title": "Care that outlasts handover",
+            "text": "Aftercare teams stay on call long after the keys change hands."
+          }
+        ]
       },
       "visible": true
     },

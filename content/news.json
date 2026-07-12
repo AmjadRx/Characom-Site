@@ -12,7 +12,7 @@
           "content": [
             {
               "type": "text",
-              "text": "At 06:40 on Tuesday morning, the last of 214 concrete pours on the Paphos Harbour Quarter's first phase was completed — the roof slab of the western residential terrace, seven storeys above the old fishing harbour. The traditional olive branch was craned to the summit in front of the full site crew, four weeks ahead of the contract programme."
+              "text": "At 06:40 on Tuesday morning, the last of 214 concrete pours on the Paphos Harbour Quarter's first phase was completed, the roof slab of the western residential terrace, seven storeys above the old fishing harbour. The traditional olive branch was craned to the summit in front of the full site crew, four weeks ahead of the contract programme."
             }
           ]
         },
@@ -30,7 +30,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Fit-out of the waterfront colonnade begins this month, with the public promenade — the project's gift to the town — on track to open to residents and visitors alike next summer. \"The structure is the easy half,\" said site director Marios Ioannou. \"Now we make it somewhere people will argue about who saw first.\""
+              "text": "Fit-out of the waterfront colonnade begins this month, with the public promenade, the project's gift to the town, on track to open to residents and visitors alike next summer. \"The structure is the easy half,\" said site director Marios Ioannou. \"Now we make it somewhere people will argue about who saw first.\""
             }
           ]
         }
@@ -38,7 +38,10 @@
     },
     "coverImage": "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Tower crane silhouetted against an amber evening sky",
-    "tags": ["Milestones", "Real Estate"],
+    "tags": [
+      "Milestones",
+      "Real Estate"
+    ],
     "publishedAt": "2026-05-14T09:00:00.000Z",
     "status": "published"
   },
@@ -64,7 +67,7 @@
           "content": [
             {
               "type": "text",
-              "text": "The tender was evaluated on technical method as well as price. Characom's submission proposed placing the heaviest armour stone from a jack-up barge rather than the foreshore, halving truck movements through the tourist district during the summer seasons — a detail the evaluation committee singled out in its award notice."
+              "text": "The tender was evaluated on technical method as well as price. Characom's submission proposed placing the heaviest armour stone from a jack-up barge rather than the foreshore, halving truck movements through the tourist district during the summer seasons, a detail the evaluation committee singled out in its award notice."
             }
           ]
         },
@@ -73,7 +76,7 @@
           "content": [
             {
               "type": "text",
-              "text": "Mobilisation begins immediately, with marine ecology surveys and stone sourcing from licensed Cypriot quarries already under way. It is the group's 85th public contract since 1999 — and, as chairman Andreas Characos noted at the signing, \"the first one where the site sets its own tide table.\""
+              "text": "Mobilisation begins immediately, with marine ecology surveys and stone sourcing from licensed Cypriot quarries already under way. It is the group's 85th public contract since 1999, and, as chairman Andreas Characos noted at the signing, \"the first one where the site sets its own tide table.\""
             }
           ]
         }
@@ -81,7 +84,10 @@
     },
     "coverImage": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Team reviewing documents around a meeting-room table",
-    "tags": ["Tenders", "Infrastructure"],
+    "tags": [
+      "Tenders",
+      "Infrastructure"
+    ],
     "publishedAt": "2026-02-03T08:30:00.000Z",
     "status": "published"
   },
@@ -116,7 +122,7 @@
           "content": [
             {
               "type": "text",
-              "text": "\"Concrete is the most honest material there is — it shows you exactly what you put into it,\" said director of engineering quality Katerina Georgiou. \"The same should be true of a construction group. These are numbers our clients can audit, not adjectives.\" Progress will be reported annually alongside the group's ISO 14001 surveillance audits."
+              "text": "\"Concrete is the most honest material there is, it shows you exactly what you put into it,\" said director of engineering quality Katerina Georgiou. \"The same should be true of a construction group. These are numbers our clients can audit, not adjectives.\" Progress will be reported annually alongside the group's ISO 14001 surveillance audits."
             }
           ]
         }
@@ -124,7 +130,9 @@
     },
     "coverImage": "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Rows of solar panels under a bright sky",
-    "tags": ["Sustainability"],
+    "tags": [
+      "Sustainability"
+    ],
     "publishedAt": "2026-04-22T10:00:00.000Z",
     "status": "published"
   },
@@ -159,7 +167,7 @@
           "content": [
             {
               "type": "text",
-              "text": "The programme responds to a shortage the whole industry talks about but rarely funds: the next generation of Cypriot builders. \"We were founded by people who learned this trade with their hands,\" said CEO Elena Characou. \"If we want craft to outlast us, we have to teach it — on real sites, for real pay.\""
+              "text": "The programme responds to a shortage the whole industry talks about but rarely funds: the next generation of Cypriot builders. \"We were founded by people who learned this trade with their hands,\" said CEO Elena Characou. \"If we want craft to outlast us, we have to teach it, on real sites, for real pay.\""
             }
           ]
         }
@@ -167,7 +175,10 @@
     },
     "coverImage": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Group of colleagues joining hands over a work table",
-    "tags": ["Community", "People"],
+    "tags": [
+      "Community",
+      "People"
+    ],
     "publishedAt": "2026-06-18T09:00:00.000Z",
     "status": "published"
   }

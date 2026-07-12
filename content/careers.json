@@ -13,14 +13,21 @@
           "content": [
             {
               "type": "text",
-              "text": "You will run the daily engineering of one of our live sites in the Nicosia district — setting out, supervising subcontractors, checking quality against the drawings and keeping the programme honest. You report to the Project Manager and work beside a foreman who has probably poured more concrete than anyone you have ever met."
+              "text": "You will run the daily engineering of one of our live sites in the Nicosia district, setting out, supervising subcontractors, checking quality against the drawings and keeping the programme honest. You report to the Project Manager and work beside a foreman who has probably poured more concrete than anyone you have ever met."
             }
           ]
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Responsibilities" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Responsibilities"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -31,7 +38,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Set out works and verify dimensional control across structural and finishing stages." }
+                    {
+                      "type": "text",
+                      "text": "Set out works and verify dimensional control across structural and finishing stages."
+                    }
                   ]
                 }
               ]
@@ -42,7 +52,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Coordinate subcontractors and material deliveries against the two-week lookahead programme." }
+                    {
+                      "type": "text",
+                      "text": "Coordinate subcontractors and material deliveries against the two-week lookahead programme."
+                    }
                   ]
                 }
               ]
@@ -53,7 +66,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Prepare inspection and test plans, record quality checks and close out non-conformances." }
+                    {
+                      "type": "text",
+                      "text": "Prepare inspection and test plans, record quality checks and close out non-conformances."
+                    }
                   ]
                 }
               ]
@@ -64,7 +80,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Produce as-built records, measurement sheets and daily site diaries." }
+                    {
+                      "type": "text",
+                      "text": "Produce as-built records, measurement sheets and daily site diaries."
+                    }
                   ]
                 }
               ]
@@ -75,7 +94,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Support the HSE Officer in keeping the site induction, permits and toolbox talks current." }
+                    {
+                      "type": "text",
+                      "text": "Support the HSE Officer in keeping the site induction, permits and toolbox talks current."
+                    }
                   ]
                 }
               ]
@@ -84,8 +106,15 @@
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Requirements" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Requirements"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -96,7 +125,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Degree in Civil Engineering and registration with ETEK (or eligibility to register)." }
+                    {
+                      "type": "text",
+                      "text": "Degree in Civil Engineering and registration with ETEK (or eligibility to register)."
+                    }
                   ]
                 }
               ]
@@ -107,7 +139,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "2–5 years of site experience on building or civil works; public-sector projects are a plus." }
+                    {
+                      "type": "text",
+                      "text": "2–5 years of site experience on building or civil works; public-sector projects are a plus."
+                    }
                   ]
                 }
               ]
@@ -118,7 +153,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Confident with total stations, AutoCAD and reading structural drawings without help." }
+                    {
+                      "type": "text",
+                      "text": "Confident with total stations, AutoCAD and reading structural drawings without help."
+                    }
                   ]
                 }
               ]
@@ -129,7 +167,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Fluent Greek and working English; a clean driving licence." }
+                    {
+                      "type": "text",
+                      "text": "Fluent Greek and working English; a clean driving licence."
+                    }
                   ]
                 }
               ]
@@ -155,14 +196,21 @@
           "content": [
             {
               "type": "text",
-              "text": "Based in our Limassol office, you will own the commercial position of two to three live projects — from tender take-offs through monthly valuations to final account. We price honestly, we measure everything, and we expect you to defend both sides of that discipline."
+              "text": "Based in our Limassol office, you will own the commercial position of two to three live projects, from tender take-offs through monthly valuations to final account. We price honestly, we measure everything, and we expect you to defend both sides of that discipline."
             }
           ]
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Responsibilities" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Responsibilities"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -173,7 +221,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Prepare bills of quantities, tender pricing and subcontract enquiries." }
+                    {
+                      "type": "text",
+                      "text": "Prepare bills of quantities, tender pricing and subcontract enquiries."
+                    }
                   ]
                 }
               ]
@@ -184,7 +235,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Produce monthly valuations, cost reports and cash-flow forecasts for project reviews." }
+                    {
+                      "type": "text",
+                      "text": "Produce monthly valuations, cost reports and cash-flow forecasts for project reviews."
+                    }
                   ]
                 }
               ]
@@ -195,7 +249,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Administer subcontract accounts: orders, variations, payment certificates and final accounts." }
+                    {
+                      "type": "text",
+                      "text": "Administer subcontract accounts: orders, variations, payment certificates and final accounts."
+                    }
                   ]
                 }
               ]
@@ -206,7 +263,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Assess and negotiate variations and claims with clients' consultants." }
+                    {
+                      "type": "text",
+                      "text": "Assess and negotiate variations and claims with clients' consultants."
+                    }
                   ]
                 }
               ]
@@ -215,8 +275,15 @@
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Requirements" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Requirements"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -227,7 +294,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Degree in Quantity Surveying or Civil Engineering; RICS progression supported." }
+                    {
+                      "type": "text",
+                      "text": "Degree in Quantity Surveying or Civil Engineering; RICS progression supported."
+                    }
                   ]
                 }
               ]
@@ -238,7 +308,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "3+ years post-graduate experience with a contractor or consultancy in Cyprus." }
+                    {
+                      "type": "text",
+                      "text": "3+ years post-graduate experience with a contractor or consultancy in Cyprus."
+                    }
                   ]
                 }
               ]
@@ -249,7 +322,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Strong command of measurement standards, FIDIC-based contracts and Excel." }
+                    {
+                      "type": "text",
+                      "text": "Strong command of measurement standards, FIDIC-based contracts and Excel."
+                    }
                   ]
                 }
               ]
@@ -260,7 +336,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Fluent Greek and English, written and spoken." }
+                    {
+                      "type": "text",
+                      "text": "Fluent Greek and English, written and spoken."
+                    }
                   ]
                 }
               ]
@@ -286,14 +365,21 @@
           "content": [
             {
               "type": "text",
-              "text": "You will audit and support safety across all Characom sites, from Nicosia interchanges to Paphos waterfront works. The role travels — expect three to four site days a week — and carries real authority: you can stop any activity on any site, and the directors will back you when you do."
+              "text": "You will audit and support safety across all Characom sites, from Nicosia interchanges to Paphos waterfront works. The role travels, expect three to four site days a week, and carries real authority: you can stop any activity on any site, and the directors will back you when you do."
             }
           ]
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Responsibilities" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Responsibilities"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -304,7 +390,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Carry out planned and unannounced site inspections and publish findings within 24 hours." }
+                    {
+                      "type": "text",
+                      "text": "Carry out planned and unannounced site inspections and publish findings within 24 hours."
+                    }
                   ]
                 }
               ]
@@ -315,7 +404,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Maintain risk assessments, method statements and the group safety management system to ISO 45001." }
+                    {
+                      "type": "text",
+                      "text": "Maintain risk assessments, method statements and the group safety management system to ISO 45001."
+                    }
                   ]
                 }
               ]
@@ -326,7 +418,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Deliver inductions and toolbox talks; coach foremen on lifting, excavation and work-at-height controls." }
+                    {
+                      "type": "text",
+                      "text": "Deliver inductions and toolbox talks; coach foremen on lifting, excavation and work-at-height controls."
+                    }
                   ]
                 }
               ]
@@ -337,7 +432,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Investigate incidents and near-misses, track actions to closure and report monthly statistics." }
+                    {
+                      "type": "text",
+                      "text": "Investigate incidents and near-misses, track actions to closure and report monthly statistics."
+                    }
                   ]
                 }
               ]
@@ -348,7 +446,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Liaise with the Department of Labour Inspection during audits and notifications." }
+                    {
+                      "type": "text",
+                      "text": "Liaise with the Department of Labour Inspection during audits and notifications."
+                    }
                   ]
                 }
               ]
@@ -357,8 +458,15 @@
         },
         {
           "type": "heading",
-          "attrs": { "level": 3 },
-          "content": [{ "type": "text", "text": "Requirements" }]
+          "attrs": {
+            "level": 3
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Requirements"
+            }
+          ]
         },
         {
           "type": "bulletList",
@@ -369,7 +477,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Recognised HSE qualification (NEBOSH Construction Certificate or equivalent)." }
+                    {
+                      "type": "text",
+                      "text": "Recognised HSE qualification (NEBOSH Construction Certificate or equivalent)."
+                    }
                   ]
                 }
               ]
@@ -380,7 +491,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "3+ years in a construction safety role; marine or highways experience valued." }
+                    {
+                      "type": "text",
+                      "text": "3+ years in a construction safety role; marine or highways experience valued."
+                    }
                   ]
                 }
               ]
@@ -391,7 +505,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Knowledge of Cypriot safety legislation and EU construction-site directives." }
+                    {
+                      "type": "text",
+                      "text": "Knowledge of Cypriot safety legislation and EU construction-site directives."
+                    }
                   ]
                 }
               ]
@@ -402,7 +519,10 @@
                 {
                   "type": "paragraph",
                   "content": [
-                    { "type": "text", "text": "Full driving licence and willingness to travel island-wide." }
+                    {
+                      "type": "text",
+                      "text": "Full driving licence and willingness to travel island-wide."
+                    }
                   ]
                 }
               ]

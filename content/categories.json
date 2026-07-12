@@ -6,7 +6,7 @@
     "themeColor": "cypress",
     "coverImage": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "White concrete public building rising against a clear sky",
-    "intro": "Roads, public buildings and civil works delivered to the exacting standards of the Republic — tendered fairly, built precisely, and engineered for a century of service.",
+    "intro": "Roads, public buildings and civil works delivered to the exacting standards of the Republic, tendered fairly, built precisely, and engineered for a century of service.",
     "sortOrder": 1
   },
   {
@@ -16,7 +16,7 @@
     "themeColor": "aegean",
     "coverImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Waterfront towers at dusk seen across a calm marina",
-    "intro": "Mixed-use destinations and commercial landmarks that anchor whole neighbourhoods — conceived, financed and delivered by a single accountable team.",
+    "intro": "Mixed-use destinations and commercial landmarks that anchor whole neighbourhoods, conceived, financed and delivered by a single accountable team.",
     "sortOrder": 2
   },
   {
@@ -26,7 +26,7 @@
     "themeColor": "gold",
     "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1920&auto=format&fit=crop",
     "coverImageAlt": "Modern villa with a swimming pool glowing at dusk",
-    "intro": "Homes measured in generations rather than square metres — villas, courtyards and seafront residences crafted for Mediterranean life.",
+    "intro": "Homes measured in generations rather than square metres, villas, courtyards and seafront residences crafted for Mediterranean life.",
     "sortOrder": 3
   }
 ]
