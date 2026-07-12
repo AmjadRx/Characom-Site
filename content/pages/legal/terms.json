@@ -3,7 +3,7 @@
   "slug": "legal/terms",
   "status": "published",
   "seo": {
-    "title": "Terms of Use — Characom Group",
+    "title": "Terms of Use · Characom Group",
     "description": "The terms governing use of the Characom Group website."
   },
   "sections": [
@@ -13,7 +13,7 @@
       "props": {
         "kicker": "Legal",
         "heading": "Terms of Use",
-        "subheading": "Last updated 7 July 2026 — placeholder text pending legal review.",
+        "subheading": "Last updated 7 July 2026, placeholder text pending legal review.",
         "theme": "gold",
         "dark": false
       },
@@ -38,22 +38,36 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Use of this website" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Use of this website"
+                }
+              ]
             },
             {
               "type": "paragraph",
               "content": [
                 {
                   "type": "text",
-                  "text": "The site is provided for general information about Characom Group, its projects and its services. You agree not to misuse the site — including attempting to gain unauthorised access to its administration area, probing or disrupting its infrastructure, or submitting false, unlawful or abusive content through its forms."
+                  "text": "The site is provided for general information about Characom Group, its projects and its services. You agree not to misuse the site, including attempting to gain unauthorised access to its administration area, probing or disrupting its infrastructure, or submitting false, unlawful or abusive content through its forms."
                 }
               ]
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "No offer, no advice" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "No offer, no advice"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -66,8 +80,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Intellectual property" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intellectual property"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -80,8 +101,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Liability" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Liability"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -94,8 +122,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Governing law" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Governing law"
+                }
+              ]
             },
             {
               "type": "paragraph",

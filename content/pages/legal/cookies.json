@@ -3,7 +3,7 @@
   "slug": "legal/cookies",
   "status": "published",
   "seo": {
-    "title": "Cookie Policy — Characom Group",
+    "title": "Cookie Policy · Characom Group",
     "description": "The cookies and similar technologies used by the Characom Group website, and how to control them."
   },
   "sections": [
@@ -13,7 +13,7 @@
       "props": {
         "kicker": "Legal",
         "heading": "Cookie Policy",
-        "subheading": "Last updated 7 July 2026 — placeholder text pending legal review.",
+        "subheading": "Last updated 7 July 2026, placeholder text pending legal review.",
         "theme": "gold",
         "dark": false
       },
@@ -38,8 +38,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Strictly necessary storage" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Strictly necessary storage"
+                }
+              ]
             },
             {
               "type": "bulletList",
@@ -52,7 +59,7 @@
                       "content": [
                         {
                           "type": "text",
-                          "text": "Cookie consent choice — remembers whether you have acknowledged the cookie banner, so it does not reappear on every visit (stored in your browser's local storage, kept for 12 months)."
+                          "text": "Cookie consent choice, remembers whether you have acknowledged the cookie banner, so it does not reappear on every visit (stored in your browser's local storage, kept for 12 months)."
                         }
                       ]
                     }
@@ -66,7 +73,7 @@
                       "content": [
                         {
                           "type": "text",
-                          "text": "Motion preference — remembers if you have switched on reduced motion via the toggle in the footer (local storage, kept until you clear it)."
+                          "text": "Motion preference, remembers if you have switched on reduced motion via the toggle in the footer (local storage, kept until you clear it)."
                         }
                       ]
                     }
@@ -80,7 +87,7 @@
                       "content": [
                         {
                           "type": "text",
-                          "text": "Preloader flag — remembers that the opening animation has already played this session (session storage, deleted when you close the tab)."
+                          "text": "Preloader flag, remembers that the opening animation has already played this session (session storage, deleted when you close the tab)."
                         }
                       ]
                     }
@@ -94,7 +101,7 @@
                       "content": [
                         {
                           "type": "text",
-                          "text": "Administrator session cookie — set only for authorised staff who sign in to the content management area; it never applies to ordinary visitors (expires after 12 hours)."
+                          "text": "Administrator session cookie, set only for authorised staff who sign in to the content management area; it never applies to ordinary visitors (expires after 12 hours)."
                         }
                       ]
                     }
@@ -104,8 +111,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Embedded content" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Embedded content"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -118,8 +132,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Managing cookies" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Managing cookies"
+                }
+              ]
             },
             {
               "type": "paragraph",

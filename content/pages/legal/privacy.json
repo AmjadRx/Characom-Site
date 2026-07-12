@@ -3,7 +3,7 @@
   "slug": "legal/privacy",
   "status": "published",
   "seo": {
-    "title": "Privacy Policy — Characom Group",
+    "title": "Privacy Policy · Characom Group",
     "description": "How Characom Group collects, stores and protects personal data submitted through this website, in line with the GDPR."
   },
   "sections": [
@@ -13,7 +13,7 @@
       "props": {
         "kicker": "Legal",
         "heading": "Privacy Policy",
-        "subheading": "Last updated 7 July 2026 — placeholder text pending legal review.",
+        "subheading": "Last updated 7 July 2026, placeholder text pending legal review.",
         "theme": "gold",
         "dark": false
       },
@@ -38,8 +38,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Who is the controller" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Who is the controller"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -52,8 +59,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "What we collect and why" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "What we collect and why"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -73,7 +87,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Your name and email address (required to reply to you)." }
+                        {
+                          "type": "text",
+                          "text": "Your name and email address (required to reply to you)."
+                        }
                       ]
                     }
                   ]
@@ -84,7 +101,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Your telephone number, if you provide it." }
+                        {
+                          "type": "text",
+                          "text": "Your telephone number, if you provide it."
+                        }
                       ]
                     }
                   ]
@@ -95,7 +115,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "The subject and message you write, and the page you sent it from." }
+                        {
+                          "type": "text",
+                          "text": "The subject and message you write, and the page you sent it from."
+                        }
                       ]
                     }
                   ]
@@ -106,7 +129,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "The date and time of your consent to this policy." }
+                        {
+                          "type": "text",
+                          "text": "The date and time of your consent to this policy."
+                        }
                       ]
                     }
                   ]
@@ -124,8 +150,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Where inquiries are stored" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Where inquiries are stored"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -138,8 +171,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "How long we keep it" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "How long we keep it"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -152,8 +192,15 @@
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [{ "type": "text", "text": "Your rights" }]
+              "attrs": {
+                "level": 2
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Your rights"
+                }
+              ]
             },
             {
               "type": "paragraph",
@@ -173,7 +220,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Request access to the personal data we hold about you." }
+                        {
+                          "type": "text",
+                          "text": "Request access to the personal data we hold about you."
+                        }
                       ]
                     }
                   ]
@@ -184,7 +234,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Request correction or erasure of that data." }
+                        {
+                          "type": "text",
+                          "text": "Request correction or erasure of that data."
+                        }
                       ]
                     }
                   ]
@@ -195,7 +248,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Withdraw your consent, without affecting processing carried out before withdrawal." }
+                        {
+                          "type": "text",
+                          "text": "Withdraw your consent, without affecting processing carried out before withdrawal."
+                        }
                       ]
                     }
                   ]
@@ -206,7 +262,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Object to processing based on legitimate interest, or request restriction." }
+                        {
+                          "type": "text",
+                          "text": "Object to processing based on legitimate interest, or request restriction."
+                        }
                       ]
                     }
                   ]
@@ -217,7 +276,10 @@
                     {
                       "type": "paragraph",
                       "content": [
-                        { "type": "text", "text": "Lodge a complaint with the Office of the Commissioner for Personal Data Protection of the Republic of Cyprus." }
+                        {
+                          "type": "text",
+                          "text": "Lodge a complaint with the Office of the Commissioner for Personal Data Protection of the Republic of Cyprus."
+                        }
                       ]
                     }
                   ]

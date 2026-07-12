@@ -254,32 +254,62 @@ export const BLOCK_DEFS: Record<BlockType, BlockDef> = {
   constructionScene: def(
     "constructionScene",
     "3D construction timelapse",
-    "Scroll-driven isometric 3D tower rising floor by floor, with a working crane — pure CSS 3D, no libraries.",
+    "Scroll-driven isometric 3D build scene (tower with per-floor reasons, or a residential mansion with crew, vehicles and trees). Pure CSS 3D, no libraries.",
     {
       kicker: z.string().default(""),
       heading: z.string().default(""),
       text: z.string().default(""),
+      variant: z.enum(["tower", "mansion"]).default("tower"),
       floors: z.number().min(4).max(20).default(12),
       caption: z.string().default(""),
+      reasons: z
+        .array(
+          z.object({
+            title: z.string().default(""),
+            text: z.string().default(""),
+          }),
+        )
+        .default([]),
     },
     {
       kicker: "The build, distilled",
       heading: "From ground to skyline",
       text: "",
+      variant: "tower",
       floors: 12,
       caption: "Scroll to raise the tower",
+      reasons: [],
     },
     [
       kickerField,
       headingField,
       { name: "text", label: "Supporting text", kind: "text" },
       {
+        name: "variant",
+        label: "Scene",
+        kind: "select",
+        options: [
+          { label: "Corporate tower (with reasons per floor)", value: "tower" },
+          { label: "Residential mansion (crew, vehicles, trees)", value: "mansion" },
+        ],
+      },
+      {
         name: "floors",
-        label: "Floors",
+        label: "Floors (tower only)",
         kind: "number",
-        help: "4–20. Scroll builds the tower floor by floor.",
+        help: "4 to 20. Scroll builds the tower floor by floor.",
       },
       { name: "caption", label: "Caption under the scene", kind: "text" },
+      {
+        name: "reasons",
+        label: "Reasons (tower: one revealed per floor)",
+        kind: "list",
+        itemLabel: "Reason",
+        itemFields: [
+          { name: "title", label: "Title", kind: "text" },
+          { name: "text", label: "Detail line", kind: "textarea" },
+        ],
+      },
     ],
   ),
 
