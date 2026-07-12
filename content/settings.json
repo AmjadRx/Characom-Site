@@ -3,21 +3,27 @@
   "tagline": "We build what outlasts us.",
   "foundedYear": 1987,
   "contact": {
-    "phones": ["+357 22 000 000", "+357 25 000 000"],
-    "emails": ["info@characom.example.com", "projects@characom.example.com"],
+    "phones": [
+      "+357 22 000 000",
+      "+357 25 000 000"
+    ],
+    "emails": [
+      "info@characom.example.com",
+      "projects@characom.example.com"
+    ],
     "fax": "+357 22 000 001",
     "offices": [
       {
-        "name": "Nicosia — Head Office",
+        "name": "Nicosia \u2014 Head Office",
         "address": "12 Evagorou Avenue, 1065 Nicosia, Cyprus",
         "phone": "+357 22 000 000",
-        "hours": "Mon–Fri 08:00–17:00"
+        "hours": "Mon\u2013Fri 08:00\u201317:00"
       },
       {
         "name": "Limassol Office",
         "address": "48 Spyrou Kyprianou Avenue, 4004 Limassol, Cyprus",
         "phone": "+357 25 000 000",
-        "hours": "Mon–Fri 08:30–17:00"
+        "hours": "Mon\u2013Fri 08:30\u201317:00"
       }
     ]
   },
@@ -25,15 +31,35 @@
     "logoText": "CHARACOM"
   },
   "seoDefaults": {
-    "title": "Characom Group — Building Cyprus since 1987",
+    "title": "Characom Group \u2014 Building Cyprus since 1987",
     "description": "Cypriot construction and development group delivering government infrastructure, real estate development and residential communities across the island since 1987."
   },
   "stats": [
-    { "label": "Years of experience", "value": 38, "suffix": "+" },
-    { "label": "Projects delivered", "value": 240, "suffix": "+" },
-    { "label": "Employees & engineers", "value": 650, "suffix": "+" },
-    { "label": "Sq.m developed", "value": 1200000, "suffix": "+" },
-    { "label": "Government contracts", "value": 85, "suffix": "+" }
+    {
+      "label": "Years of experience",
+      "value": 38,
+      "suffix": "+"
+    },
+    {
+      "label": "Projects delivered",
+      "value": 240,
+      "suffix": "+"
+    },
+    {
+      "label": "Employees & engineers",
+      "value": 650,
+      "suffix": "+"
+    },
+    {
+      "label": "Sq.m developed",
+      "value": 1200000,
+      "suffix": "+"
+    },
+    {
+      "label": "Government contracts",
+      "value": 85,
+      "suffix": "+"
+    }
   ],
   "integrations": {
     "mapEmbedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=33.33%2C35.14%2C33.41%2C35.20&layer=mapnik"
@@ -41,5 +67,12 @@
   "heroMedia": {
     "mode": "particles"
   },
-  "maintenanceMode": false
+  "maintenanceMode": false,
+  "loaderImages": [
+    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=2400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=2400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2400&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1486718448742-163732cd1544?q=80&w=2400&auto=format&fit=crop"
+  ]
 }

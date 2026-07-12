@@ -5,6 +5,11 @@ import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { ScrollTrigger } from "@/lib/motion/gsap";
+import {
+  DEFAULT_LOADER_IMAGES,
+  loaderImageSrc,
+  pickLoaderImage,
+} from "@/lib/loader-images";
 import { useReducedMotionPref } from "./ReducedMotionProvider";
 
 /**
@@ -55,11 +60,35 @@ function RouteCounter() {
 
 export function PageTransitionProvider({
   children,
+  loaderImages = [],
 }: {
   children: React.ReactNode;
+  /** construction photos shown on the covering panel (from site settings) */
+  loaderImages?: string[];
 }) {
   const pathname = usePathname();
   const { reduced } = useReducedMotionPref();
+  const panelPhoto = loaderImageSrc(
+    pickLoaderImage(loaderImages, pathname ?? "/"),
+  );
+
+  /* Warm the loader-photo pool after first paint so route transitions show
+     their construction photo instantly (cold-cache downloads would otherwise
+     outlast the 450ms count window). */
+  useEffect(() => {
+    const warm = () => {
+      const pool =
+        loaderImages.length > 0 ? loaderImages : DEFAULT_LOADER_IMAGES;
+      for (const src of pool) {
+        const img = new Image();
+        img.decoding = "async";
+        img.src = loaderImageSrc(src);
+      }
+    };
+    const timer = window.setTimeout(warm, 2500);
+    return () => window.clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleExitComplete = useCallback(() => {
     // Old page is gone (mode="wait") and the new one has not mounted yet —
@@ -103,7 +132,7 @@ export function PageTransitionProvider({
                 then wipes up away. */}
             <motion.div
               aria-hidden="true"
-              className="pointer-events-none fixed inset-0 z-[95] bg-ink"
+              className="pointer-events-none fixed inset-0 z-[95] overflow-hidden bg-ink"
               initial={{ y: "0%" }}
               animate={{
                 y: "-101%",
@@ -115,6 +144,27 @@ export function PageTransitionProvider({
               }}
               exit={{ y: "-101%" }}
             >
+              {/* Construction photo behind the counter (Sobha-style bleed) */}
+              <motion.img
+                src={panelPhoto}
+                alt=""
+                className="absolute inset-0 h-full w-full object-cover"
+                initial={{ scale: 1.08 }}
+                animate={{
+                  scale: 1,
+                  transition: {
+                    duration: COUNT_S + HALF,
+                    ease: [...EASE_FM.out],
+                  },
+                }}
+              />
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "linear-gradient(to top, rgb(14 18 22 / 0.9) 0%, rgb(14 18 22 / 0.5) 45%, rgb(14 18 22 / 0.3) 100%)",
+                }}
+              />
               <RouteCounter />
               {/* Gold sweep line on the trailing (bottom) edge. */}
               <motion.span

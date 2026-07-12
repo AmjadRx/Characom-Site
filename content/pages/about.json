@@ -3,7 +3,7 @@
   "slug": "about",
   "status": "published",
   "seo": {
-    "title": "About the Group — Characom Group",
+    "title": "About the Group \u2014 Characom Group",
     "description": "The story of Characom Group: founded in Nicosia in 1987, now 650+ engineers and builders delivering infrastructure, developments and homes across Cyprus."
   },
   "sections": [
@@ -13,9 +13,13 @@
       "props": {
         "kicker": "About the Group",
         "heading": "Built to endure",
-        "subheading": "One family firm, four decades, three sectors — and a single standard across all of them.",
+        "subheading": "One family firm, four decades, three sectors \u2014 and a single standard across all of them.",
         "theme": "gold",
-        "dark": false
+        "dark": false,
+        "image": {
+          "src": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=2400&auto=format&fit=crop",
+          "alt": "Cityscape of completed development at dusk"
+        }
       },
       "visible": true
     },
@@ -25,10 +29,10 @@
       "props": {
         "kicker": "Our story",
         "heading": "From two crews to six hundred and fifty",
-        "body": "Characom was founded in 1987 by Andreas Characos, a site engineer who believed a contractor's reputation should be auditable — every promise written down, every handover walked with the client. The first office was a site cabin; the first ledger is still in the boardroom.\n\nGrowth came the unfashionable way: no acquisitions, no borrowed badges. The group added a precast yard when its bridges needed one, a joinery workshop when its houses deserved better stairs, and a development arm when clients kept asking who they should buy land with.\n\nThe result is unusual on the island — a group that can take a project from first survey to final key under one name, and answer for all of it. That is what we mean when we say we build what outlasts us.",
+        "body": "Characom was founded in 1987 by Andreas Characos, a site engineer who believed a contractor's reputation should be auditable \u2014 every promise written down, every handover walked with the client. The first office was a site cabin; the first ledger is still in the boardroom.\n\nGrowth came the unfashionable way: no acquisitions, no borrowed badges. The group added a precast yard when its bridges needed one, a joinery workshop when its houses deserved better stairs, and a development arm when clients kept asking who they should buy land with.\n\nThe result is unusual on the island \u2014 a group that can take a project from first survey to final key under one name, and answer for all of it. That is what we mean when we say we build what outlasts us.",
         "image": {
           "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1920&auto=format&fit=crop",
-        "alt": "Industrial structures silhouetted at dusk"
+          "alt": "Industrial structures silhouetted at dusk"
         },
         "imageSide": "right",
         "link": {
@@ -61,7 +65,7 @@
           {
             "year": "1999",
             "title": "First government contract",
-            "text": "A district school extension in Larnaca begins the public-works record — delivered early, and the start of 85 government contracts to date."
+            "text": "A district school extension in Larnaca begins the public-works record \u2014 delivered early, and the start of 85 government contracts to date."
           },
           {
             "year": "2011",
@@ -71,7 +75,7 @@
           {
             "year": "2018",
             "title": "Triple ISO certification",
-            "text": "Quality, environment and safety systems certified to ISO 9001, 14001 and 45001 — turning house rules into audited commitments."
+            "text": "Quality, environment and safety systems certified to ISO 9001, 14001 and 45001 \u2014 turning house rules into audited commitments."
           },
           {
             "year": "2026",
@@ -151,22 +155,34 @@
         "logos": [
           {
             "name": "Cyprus Construction Awards 2024",
-            "image": { "src": "", "alt": "" },
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
-            "name": "European Property Awards — Finalist 2023",
-            "image": { "src": "", "alt": "" },
+            "name": "European Property Awards \u2014 Finalist 2023",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
             "name": "Cyprus Employers & Industrialists Federation",
-            "image": { "src": "", "alt": "" },
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
             "name": "Cyprus Green Building Council",
-            "image": { "src": "", "alt": "" },
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           }
         ]
@@ -179,7 +195,7 @@
       "props": {
         "kicker": "Work with us",
         "heading": "Build something that outlasts us both",
-        "text": "From public tenders to private homes — start the conversation.",
+        "text": "From public tenders to private homes \u2014 start the conversation.",
         "button": {
           "label": "Get in touch",
           "href": "/contact",

@@ -67,6 +67,7 @@ export const DEFAULT_SETTINGS: SiteSettings = {
   stats: [],
   integrations: {},
   heroMedia: { mode: "particles" },
+  loaderImages: [],
   maintenanceMode: false,
 };
 

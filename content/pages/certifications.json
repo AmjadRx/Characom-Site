@@ -3,7 +3,7 @@
   "slug": "certifications",
   "status": "published",
   "seo": {
-    "title": "Certifications, Safety & Quality — Characom Group",
+    "title": "Certifications, Safety & Quality \u2014 Characom Group",
     "description": "Characom Group's audited quality, environmental and safety systems: ISO 9001, ISO 14001, ISO 45001, safety record and tender credentials."
   },
   "sections": [
@@ -13,9 +13,13 @@
       "props": {
         "kicker": "Assurance",
         "heading": "Certifications, Safety & Quality",
-        "subheading": "The paperwork behind the promise — audited, current, and open to any client who asks.",
+        "subheading": "The paperwork behind the promise \u2014 audited, current, and open to any client who asks.",
         "theme": "gold",
-        "dark": false
+        "dark": false,
+        "image": {
+          "src": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=2400&auto=format&fit=crop",
+          "alt": "Infrastructure works in progress"
+        }
       },
       "visible": true
     },
@@ -32,23 +36,19 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "Public clients do not buy promises; they buy systems. Every Characom project — from a school extension to a harbour quarter — runs inside the same certified management framework, audited annually by independent bodies and inspected without notice by our own quality directorate."
+                  "text": "Public clients do not buy promises; they buy systems. Every Characom project \u2014 from a school extension to a harbour quarter \u2014 runs inside the same certified management framework, audited annually by independent bodies and inspected without notice by our own quality directorate."
                 }
               ]
             },
             {
               "type": "heading",
-              "attrs": { "level": 2 },
-              "content": [
-                { "type": "text", "text": "Quality is a system, not a slogan" }
-              ]
-            },
-            {
-              "type": "paragraph",
+              "attrs": {
+                "level": 2
+              },
               "content": [
                 {
                   "type": "text",
-                  "text": "Our quality management system has been certified to ISO 9001 since 2018, covering estimating, engineering, procurement and construction across all three sectors. Every project carries an inspection and test plan signed before the first pour; every non-conformance is logged, costed and closed in a register the client may read at any time. The same discipline extends to our supply chain — key subcontractors are audited on our sites, against our standard, before they win a second package."
+                  "text": "Quality is a system, not a slogan"
                 }
               ]
             },
@@ -57,7 +57,16 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "Environmental management (ISO 14001) governs how our sites handle waste, water, dust and noise — and drives the group's binding target of 40% recycled aggregate on public works by 2028. Occupational safety (ISO 45001) is the system we hold above all others: our HSE officers carry stop-work authority on every site, and use it. Certification numbers and current audit certificates are available to tender evaluation committees on request."
+                  "text": "Our quality management system has been certified to ISO 9001 since 2018, covering estimating, engineering, procurement and construction across all three sectors. Every project carries an inspection and test plan signed before the first pour; every non-conformance is logged, costed and closed in a register the client may read at any time. The same discipline extends to our supply chain \u2014 key subcontractors are audited on our sites, against our standard, before they win a second package."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Environmental management (ISO 14001) governs how our sites handle waste, water, dust and noise \u2014 and drives the group's binding target of 40% recycled aggregate on public works by 2028. Occupational safety (ISO 45001) is the system we hold above all others: our HSE officers carry stop-work authority on every site, and use it. Certification numbers and current audit certificates are available to tender evaluation committees on request."
                 }
               ]
             }
@@ -76,23 +85,35 @@
         "heading": "Standards we are audited against",
         "logos": [
           {
-            "name": "ISO 9001 — Quality Management",
-            "image": { "src": "", "alt": "" },
+            "name": "ISO 9001 \u2014 Quality Management",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
-            "name": "ISO 14001 — Environmental Management",
-            "image": { "src": "", "alt": "" },
+            "name": "ISO 14001 \u2014 Environmental Management",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
-            "name": "ISO 45001 — Occupational Health & Safety",
-            "image": { "src": "", "alt": "" },
+            "name": "ISO 45001 \u2014 Occupational Health & Safety",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           },
           {
-            "name": "EMAS — Eco-Management & Audit Scheme",
-            "image": { "src": "", "alt": "" },
+            "name": "EMAS \u2014 Eco-Management & Audit Scheme",
+            "image": {
+              "src": "",
+              "alt": ""
+            },
             "href": ""
           }
         ]
@@ -107,10 +128,26 @@
         "heading": "Numbers our clients can audit",
         "useSiteStats": false,
         "items": [
-          { "label": "LTI-free days", "value": 1240, "suffix": "+" },
-          { "label": "Safety audits / year", "value": 96, "suffix": "" },
-          { "label": "ISO certifications", "value": 3, "suffix": "" },
-          { "label": "Tender success rate", "value": 62, "suffix": "%" }
+          {
+            "label": "LTI-free days",
+            "value": 1240,
+            "suffix": "+"
+          },
+          {
+            "label": "Safety audits / year",
+            "value": 96,
+            "suffix": ""
+          },
+          {
+            "label": "ISO certifications",
+            "value": 3,
+            "suffix": ""
+          },
+          {
+            "label": "Tender success rate",
+            "value": 62,
+            "suffix": "%"
+          }
         ],
         "dark": true
       },
@@ -126,7 +163,7 @@
           {
             "label": "Company profile",
             "href": "#",
-            "note": "PDF — upload via Admin → Media"
+            "note": "PDF \u2014 upload via Admin \u2192 Media"
           }
         ]
       },
@@ -149,7 +186,7 @@
           },
           {
             "question": "How do we obtain pre-qualification documents?",
-            "answer": "Write to projects@characom.example.com or use the contact form with the tender reference. Our commercial team returns a complete pre-qualification pack — certificates, financial standing, plant schedules, key personnel CVs and reference projects — within three working days."
+            "answer": "Write to projects@characom.example.com or use the contact form with the tender reference. Our commercial team returns a complete pre-qualification pack \u2014 certificates, financial standing, plant schedules, key personnel CVs and reference projects \u2014 within three working days."
           }
         ]
       },

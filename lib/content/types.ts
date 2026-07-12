@@ -206,6 +206,9 @@ export interface SiteSettings {
     videoSrc?: string;
     posterSrc?: string;
   };
+  /** full-bleed construction photos behind the load screens (Preloader +
+   * route transitions); empty = built-in placeholder set */
+  loaderImages?: string[];
   maintenanceMode: boolean;
 }
 

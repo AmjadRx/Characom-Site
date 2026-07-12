@@ -13,6 +13,7 @@ const LEGAL_LINKS = [
   { label: "Privacy Policy", href: "/legal/privacy" },
   { label: "Terms of Use", href: "/legal/terms" },
   { label: "Cookie Policy", href: "/legal/cookies" },
+  { label: "Admin", href: "/admin" },
 ];
 
 function byOrder(a: NavigationItem, b: NavigationItem) {
