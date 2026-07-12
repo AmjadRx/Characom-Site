@@ -4,6 +4,7 @@ import { useLayoutEffect, useRef, useState } from "react";
 import { gsap, ScrollTrigger } from "@/lib/motion/gsap";
 import { EASE } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";
+import SceneFrame, { type SceneHeader } from "./SceneFrame";
 import { C, Person, Scaffold, SoftShadow, Tree, World } from "./kit";
 
 /**
@@ -26,10 +27,12 @@ export default function TowerSceneClient({
   floors,
   caption,
   reasons,
+  header,
 }: {
   floors: number;
   caption: string;
   reasons: Reason[];
+  header: SceneHeader;
 }) {
   const { reduced } = useReducedMotionPref();
   const rootRef = useRef<HTMLDivElement | null>(null);
@@ -123,17 +126,14 @@ export default function TowerSceneClient({
   const activeReason = Math.max(0, Math.min(reasons.length - 1, built - 1));
   const mastH = (floors + 3.2) * FLOOR_H;
 
-  return (
-    <div ref={rootRef} className="relative">
-      <div className="flex min-h-[100svh] flex-col pt-[calc(var(--nav-h)+1rem)] pb-6 lg:h-[100svh]">
-        <div className="grid min-h-0 flex-1 items-center gap-8 lg:grid-cols-[1fr_360px]">
-          {/* stage */}
-          <div ref={stageRef} className="relative flex h-full min-h-[340px] items-center justify-center">
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute inset-0"
-              style={{ background: `radial-gradient(45% 40% at 50% 55%, ${C.purple} / 0.5), transparent 75%)` }}
-            />
+  const stage = (
+    <>
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0"
+        style={{ background: `radial-gradient(45% 40% at 50% 55%, ${C.purple} / 0.5), transparent 75%)` }}
+      />
+      <div className="contents">
             <div
               ref={scaleRef}
               style={{ transformOrigin: "center center" }}
@@ -236,11 +236,12 @@ export default function TowerSceneClient({
                 <Tree x={396} y={300} height={54} grow />
               </World>
             </div>
-          </div>
+      </div>
+    </>
+  );
 
-          {/* reasons rail */}
-          <div className="relative min-h-[8.5rem] lg:min-h-0">
-            <div className="lg:max-w-sm">
+  const rail = (
+    <div className="lg:max-w-sm">
               <p className="text-[0.6875rem] font-medium uppercase tracking-[0.3em] text-plaster/45">
                 Why choose Characom
               </p>
@@ -283,11 +284,12 @@ export default function TowerSceneClient({
                   {built >= floors ? "Topping out" : "Floors"}
                 </span>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+  );
 
+  return (
+    <div ref={rootRef} className="relative">
+      <SceneFrame header={header} stage={stage} rail={rail} stageRef={stageRef} />
       <style>{`
         .cs-slew { animation: cs-slew 14s ease-in-out infinite alternate; }
         @keyframes cs-slew {
