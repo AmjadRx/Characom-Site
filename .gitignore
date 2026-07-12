@@ -10,8 +10,24 @@ desktop.ini
 
 # Logs / misc
 *.log
-node_modules/
 
-# Motion AI Kit skills — licensed to the owner's Motion+ account, fetched
-# per-machine via `npx motion-ai`; not for redistribution in a public repo
-.claude/skills/motion/
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# env files — never commit secrets
+.env
+.env.local
+.env.*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo

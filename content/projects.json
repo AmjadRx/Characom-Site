@@ -1,0 +1,816 @@
+[
+  {
+    "id": "proj-1",
+    "categoryId": "cat-gov",
+    "name": "A1 Interchange East",
+    "slug": "a1-interchange-east",
+    "location": "Nicosia",
+    "year": 2021,
+    "status": "completed",
+    "client": "Republic of Cyprus — Department of Public Works",
+    "valueLabel": "€42M",
+    "summary": "A three-level grade-separated interchange untangling the capital's eastern approach — delivered across 30 months without a single full closure of the A1.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The A1 Interchange East reorganises the junction where the island's principal motorway meets Nicosia's eastern ring road. The works comprised 1.9 kilometres of new carriageway, two post-tensioned concrete overpasses, four slip roads and the complete reconstruction of the drainage, ducting and lighting networks beneath them."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The engineering challenge was less the structures than the traffic running through them: 46,000 vehicles a day could not stop. Characom's staged programme kept two lanes live in each direction for the entire build, shifting the running alignment eleven times and casting the main overpass decks in overnight possessions agreed lane by lane with the police and the Department of Public Works."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Both bridges were assembled from match-cast segments manufactured at the group's Nicosia precast yard, cutting four months from the site programme and keeping falsework off the live carriageway. Durability drove the specification throughout — sulphate-resistant concrete, stainless reinforcement in the splash zones and a 120-year design life certified by independent checkers."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Since opening, peak crossing times through the junction have fallen from fourteen minutes to under four, and collisions at the old signalised crossing have dropped to near zero. The interchange was handed over two weeks early and within the contract sum — the way public works should end, and too rarely do."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Aerial view of intersecting roads and city blocks at dusk",
+    "specs": [
+      { "label": "Scope", "value": "Grade-separated interchange, 1.9 km of carriageway" },
+      { "label": "Built area", "value": "38,000 sq.m of deck and carriageway" },
+      { "label": "Duration", "value": "30 months (2019–2021)" },
+      { "label": "Services", "value": "Civil engineering, precast structures, traffic management" },
+      { "label": "Client type", "value": "Government" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1503328427499-d92d1ac3d174?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Excavator working on an earthworks platform",
+        "layout": "full",
+        "caption": "Bulk earthworks for the eastern slip roads — 210,000 cubic metres moved in the first dry season."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Two construction workers guiding steelwork on site",
+        "layout": "half",
+        "caption": "Reinforcement crews fixing the pier caps of the northern overpass."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Engineers reviewing drawings and planning documents",
+        "layout": "offset",
+        "caption": "Eleven traffic phases, one drawing set — the staging plan was rehearsed weekly."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Engineer in a hard hat inspecting works on site",
+        "layout": "half",
+        "caption": "Independent deck-alignment survey before the first overnight segment lift."
+      }
+    ],
+    "isFeatured": true,
+    "sortOrder": 1,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-2",
+    "categoryId": "cat-gov",
+    "name": "Nicosia Civic Archive",
+    "slug": "nicosia-civic-archive",
+    "location": "Nicosia",
+    "year": 2024,
+    "status": "completed",
+    "client": "Republic of Cyprus — Deputy Ministry of Culture",
+    "summary": "A 12,400 sq.m home for the state's paper memory: climate-stable vaults below, a public reading room flooded with filtered northern light above.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The Civic Archive consolidates four scattered state depositories into a single purpose-built repository on the edge of Nicosia's old town: 12,400 square metres of climate-stabilised vaults, conservation workshops and — for the first time in the archive's history — a public reading room open to any citizen with a question about their own past."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Paper is a demanding tenant. The vaults hold 18°C and 50% relative humidity through a Nicosia summer using thermal mass first and machinery second: 600 mm concrete walls, a deep-plan layout that buries the collection at the building's core, and a displacement ventilation system that idles for most of the year. The archive's energy use per square metre is a third of the facilities it replaces."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Where the public meets the building, the concrete was treated as a finish, not a structure to be hidden — board-marked with timber from a single Troodos sawmill, its grain running in the direction of each room's light. Bronze solar screens on the southern face will streak and soften over decades, a facade designed to age in public."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The archive opened in autumn 2024 with an exhibition of village land registries dating to the 1880s. School visits are booked out months ahead — the outcome the Deputy Ministry wanted most, and the one no specification clause could guarantee."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1486718448742-163732cd1544?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Curved concrete architecture in soft daylight",
+    "specs": [
+      { "label": "Scope", "value": "National archive, conservation labs, public reading room" },
+      { "label": "Built area", "value": "12,400 sq.m" },
+      { "label": "Duration", "value": "26 months (2022–2024)" },
+      { "label": "Services", "value": "Design & build, archival climate systems, fit-out" },
+      { "label": "Client type", "value": "Government" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Sweeping curved concrete facade of a public building",
+        "layout": "full",
+        "caption": "The reading-room wing — board-marked concrete cast against Troodos pine."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Detail of a modern concrete facade with regular openings",
+        "layout": "half",
+        "caption": "Vault-block elevation: 600 mm walls doing the quiet work of climate control."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Architect working over technical drawings at a drafting table",
+        "layout": "offset",
+        "caption": "Every board mark was set out on the drawings before a single panel was struck."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Low-rise concrete building beneath a clear sky",
+        "layout": "half",
+        "caption": "The conservation workshops face a shaded courtyard on the northern side."
+      }
+    ],
+    "isFeatured": true,
+    "sortOrder": 2,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-3",
+    "categoryId": "cat-gov",
+    "name": "Larnaca Coastal Defence Works",
+    "slug": "larnaca-coastal-defence-works",
+    "location": "Larnaca",
+    "year": 2026,
+    "status": "in_progress",
+    "client": "Republic of Cyprus — Larnaca District Administration",
+    "summary": "3.2 kilometres of groynes, revetments and beach nourishment defending Larnaca's eastern shore — with a rebuilt public promenade riding above the armour stone.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Larnaca's eastern shoreline has retreated by up to nine metres in two decades. The Coastal Defence Works answer with a 3.2-kilometre system of submerged groynes, rock revetments and phased beach nourishment, capped by a rebuilt promenade that returns the seafront to pedestrians rather than surrendering it to the sea wall."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The marine method was the tender's deciding card. The heaviest armour stone — individual blocks of up to eight tonnes — is placed from a jack-up barge working seaward of the swimmers' season, guided by GPS-positioned grabs against a wave-modelled design profile. Placing from the water halves truck movements through the tourist district and keeps the beach open through both summers of the programme."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "All stone is sourced from licensed Cypriot quarries and every load is photographed, weighed and logged against the environmental permit. Marine ecologists survey the adjacent posidonia meadows quarterly; the design deliberately steers the groyne field away from them, trading a longer structure for an intact seabed."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The first kilometre of nourished beach opens next spring. When the works complete in 2027, the district administration will hold something rare in coastal engineering: a defence line that reads, from the promenade, as simply more beach."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Aerial view of a sandy coastline meeting turquoise water",
+    "specs": [
+      { "label": "Scope", "value": "3.2 km coastal protection and promenade reconstruction" },
+      { "label": "Built area", "value": "54,000 sq.m of foreshore works" },
+      { "label": "Duration", "value": "34 months (2024–2027, in progress)" },
+      { "label": "Services", "value": "Marine civils, dredging & nourishment, environmental monitoring" },
+      { "label": "Client type", "value": "Government" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Long sandy beach with gentle waves",
+        "layout": "full",
+        "caption": "The nourished profile after the first winter — designed to be redrawn by the sea, slowly."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Construction crew working on site among plant and materials",
+        "layout": "half",
+        "caption": "Revetment crews working the tidal window at the eastern groyne root."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503387837-b154d5074bd2?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Rolled technical drawings and plans on a work table",
+        "layout": "offset",
+        "caption": "The wave-modelled design profile — every stone class has an address."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Engineer recording measurements during an inspection",
+        "layout": "half",
+        "caption": "Quarterly ecological monitoring above the protected posidonia meadows."
+      }
+    ],
+    "isFeatured": false,
+    "sortOrder": 3,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-4",
+    "categoryId": "cat-re",
+    "name": "Amara Bay Residences",
+    "slug": "amara-bay-residences",
+    "location": "Limassol",
+    "year": 2023,
+    "status": "completed",
+    "client": "Amara Bay Developments Ltd",
+    "valueLabel": "€65M",
+    "summary": "Two stepped residential towers over a landscaped seafront podium — 148 apartments arranged so that every living room watches the water.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Amara Bay sets two residential towers of fourteen and eleven storeys on a shared podium along Limassol's western seafront: 148 apartments, a residents' club, a 25-metre pool and 4,000 square metres of public colonnade and gardens at street level. The towers step back as they rise, so that the tallest floors read from the beach as terraces rather than wall."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The plan is organised around a single rule set early with the architects: no primary living space faces away from the sea. Achieving it in a double-tower scheme demanded a switchback core layout and transfer structures at levels five and eight — post-tensioned slabs spanning 12.5 metres, poured in summer nights to control thermal cracking, then surveyed at dawn before the sun could argue with the instruments."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Salt is the quiet enemy of seafront building. The envelope answers with marine-grade anodised aluminium, ventilated stone rainscreens and glazing certified against wind-driven spray, while podium planting uses native species that drink brackish irrigation without complaint. The specification adds cost no buyer sees on day one — and value every owner keeps at year thirty."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The development sold out eight months before handover. More telling: the ground-floor colonnade, open to the public by design, has become the neighbourhood's default evening walk — a private project paying a public dividend."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Waterfront towers lit at dusk beside calm water",
+    "specs": [
+      { "label": "Scope", "value": "Two residential towers, podium, public colonnade" },
+      { "label": "Built area", "value": "42,600 sq.m" },
+      { "label": "Duration", "value": "32 months (2020–2023)" },
+      { "label": "Services", "value": "Development management, construction, fit-out" },
+      { "label": "Client type", "value": "Private developer" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Modern apartment building with stepped balconies",
+        "layout": "full",
+        "caption": "The stepped western elevation — every setback is somebody's terrace."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Bright apartment interior with contemporary furnishing",
+        "layout": "half",
+        "caption": "A type-C apartment at level nine, its plan turned squarely to the sea."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1920&auto=format&fit=crop",
+        "alt": "White residential building facade with balconies",
+        "layout": "offset",
+        "caption": "Marine-grade rainscreen detail on the podium edge."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Open-plan living space with floor-to-ceiling glazing",
+        "layout": "half",
+        "caption": "The residents' club at podium level, opening to the pool terrace."
+      }
+    ],
+    "isFeatured": true,
+    "sortOrder": 4,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-5",
+    "categoryId": "cat-re",
+    "name": "Aegean Gate Business Centre",
+    "slug": "aegean-gate-business-centre",
+    "location": "Nicosia",
+    "year": 2019,
+    "status": "completed",
+    "client": "Aegean Gate Holdings",
+    "summary": "A 21,000 sq.m Grade-A office campus on Nicosia's ring road — two glass volumes around a planted courtyard, built to hold a 40°C summer at ease.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Aegean Gate brings Grade-A office space to the capital's western ring road: two six-storey volumes joined by a planted courtyard, 21,000 square metres of lettable space, and parking decked below a landscaped roof rather than sprawled around the site. It was, at completion, the largest speculative office development in Nicosia in a decade."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Glass towers and Nicosia summers are natural enemies, so the facade earns its keep: high-performance double-skin glazing on the south and west faces with motorised blinds in the cavity, and a courtyard section shaped to pull a through-breeze across the entrance level. The building's measured cooling load runs 35% below the local benchmark for its class."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Characom acted as both developer's contractor and construction manager, packaging the trades directly and passing tender savings back into the envelope specification. Structure topped out in fourteen months; the first anchor tenant — a regional bank's headquarters — signed before the hoardings came down."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Five years on, the campus holds full occupancy and its courtyard cafe has a lunchtime queue from the neighbouring plots — the surest sign a speculative building has become a fixed point in its district."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Modern glass office building seen from a low angle",
+    "specs": [
+      { "label": "Scope", "value": "Two office buildings, courtyard, decked parking" },
+      { "label": "Built area", "value": "21,000 sq.m lettable" },
+      { "label": "Duration", "value": "24 months (2017–2019)" },
+      { "label": "Services", "value": "Construction management, core & shell, tenant fit-out" },
+      { "label": "Client type", "value": "Private investor" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Contemporary open-plan office interior",
+        "layout": "full",
+        "caption": "Anchor-tenant floor at level four — 2.9-metre clear ceilings on a 9-metre grid."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Office lounge area with soft seating and greenery",
+        "layout": "half",
+        "caption": "The shared lobby lounge opening onto the courtyard."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1460574283810-2aab119d8511?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Looking up between two modern towers",
+        "layout": "offset",
+        "caption": "The gap between the volumes is engineered shade, not leftover space."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=1920&auto=format&fit=crop",
+        "alt": "City buildings at dusk with lit windows",
+        "layout": "half",
+        "caption": "Aegean Gate anchors the western approach to the capital's business district."
+      }
+    ],
+    "isFeatured": false,
+    "sortOrder": 5,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-6",
+    "categoryId": "cat-re",
+    "name": "Paphos Harbour Quarter",
+    "slug": "paphos-harbour-quarter",
+    "location": "Paphos",
+    "year": 2026,
+    "status": "in_progress",
+    "client": "Harbour Quarter Development JV",
+    "valueLabel": "€120M",
+    "summary": "A mixed-use waterfront quarter beside Paphos's old fishing harbour — residences, boutique hotel and a public promenade stitched into a protected archaeological setting.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The Harbour Quarter redevelops six hectares beside Paphos's old fishing harbour into a walkable waterfront district: 212 residences in stepped terraces, a 90-key boutique hotel, ground-floor workshops reserved at protected rents for local makers, and an 800-metre public promenade linking the harbour to the town's archaeological park."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Building beside a UNESCO-listed landscape sets the rules before the architects do. Every foundation position was cleared through supervised trial trenches; when mosaicist workshops surfaced at the site's northern corner, the masterplan was redrawn around them within six weeks and the find is being conserved as the centrepiece of the promenade. Piling switched to pressed-in methods within 200 metres of the ancient harbour wall to keep vibration below archaeological thresholds."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The material palette is deliberately narrow and deliberately local: coursed Paphian limestone, lime-washed render and untreated hardwood shutters — a modern district built from the same shelf of materials as the town behind it. Structural frames are concrete with 30% recycled aggregate, batched on site to cut 4,000 truck movements from the town's roads."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Phase one topped out four weeks early in spring 2026; the promenade and the first residences open next summer. The joint venture's brief was a district that looks inevitable in twenty years — the kind of place visitors will assume was always there."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Mediterranean coastline with pastel buildings above a blue sea",
+    "specs": [
+      { "label": "Scope", "value": "212 residences, 90-key hotel, public promenade" },
+      { "label": "Built area", "value": "68,000 sq.m across six hectares" },
+      { "label": "Duration", "value": "40 months (2024–2027, in progress)" },
+      { "label": "Services", "value": "Development management, archaeology-led enabling works, construction" },
+      { "label": "Client type", "value": "Joint venture" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Apartment building with deep balconies in warm light",
+        "layout": "full",
+        "caption": "Phase-one terraces above the harbour — limestone coursing echoes the old quay."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Residential building facade with repeating balconies",
+        "layout": "half",
+        "caption": "Lime-washed render and shutter bays on the promenade elevation."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Sunlit living room with large windows",
+        "layout": "offset",
+        "caption": "Show residence interior — the palette stays limestone, lime and timber indoors."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Modern low house glowing at dusk",
+        "layout": "half",
+        "caption": "The maker workshops at the quarter's northern gate, held at protected rents."
+      }
+    ],
+    "isFeatured": false,
+    "sortOrder": 6,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-7",
+    "categoryId": "cat-res",
+    "name": "Kermia Hills Villas",
+    "slug": "kermia-hills-villas",
+    "location": "Nicosia",
+    "year": 2022,
+    "status": "completed",
+    "client": "Private residential clients",
+    "valueLabel": "€14M",
+    "summary": "Eleven courtyard villas on a south-facing hillside above Nicosia — stone, shade and water arranged the way the island has always cooled its houses.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Kermia Hills places eleven villas on a terraced hillside at the capital's northern edge, each between 280 and 420 square metres, each organised around the oldest air-conditioning system on the island: a shaded courtyard with water at its centre. No two plans repeat, but every house follows the same section — thick walls to the west, deep verandas to the south, bedrooms opening east to the morning."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The hillside demanded respect before it gave views. Retaining structures were cast as habitable walls — wine stores, studies and garden rooms buried into the slope — rather than dead concrete, and every terrace's excavation was balanced on site so that not one truck of spoil left the hill. Ground-source loops beneath the driveways carry the heating and cooling load with photovoltaics on every roof."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Materials were chosen to age rather than to gleam: honed local stone, brushed lime plasters, thermally modified timber and brass ironmongery that will darken to the colour of the hillside's soil. Interiors were fitted by the group's own joinery workshop — the same shop that has built Characom stairs since 1993."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "All eleven villas were occupied within a year of completion, and the planting along the shared lane has already knitted the terraces into the hill. The measure of a residential project is simple and slow: whether its owners' grandchildren will fight over it. Kermia Hills was built to make that argument worth having."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Contemporary villa with pool lit warmly at dusk",
+    "specs": [
+      { "label": "Scope", "value": "Eleven courtyard villas with shared landscape" },
+      { "label": "Built area", "value": "3,900 sq.m across eleven plots" },
+      { "label": "Duration", "value": "22 months (2020–2022)" },
+      { "label": "Services", "value": "Design & build, joinery, landscaping" },
+      { "label": "Client type", "value": "Private clients" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Villa terrace and pool in evening light",
+        "layout": "full",
+        "caption": "Villa 7's courtyard — water at the centre, rooms arranged to borrow its cool."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Poolside seating beside a modern villa",
+        "layout": "half",
+        "caption": "Deep southern verandas cut summer solar gain before glass ever meets sun."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Interior staircase with natural timber and daylight",
+        "layout": "offset",
+        "caption": "Stairs from the group's own joinery workshop, in thermally modified ash."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Modern house with pool under a bright sky",
+        "layout": "half",
+        "caption": "The upper terrace villas hold the ridge line low against the skyline."
+      }
+    ],
+    "isFeatured": true,
+    "sortOrder": 7,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-8",
+    "categoryId": "cat-res",
+    "name": "Ayia Napa Seafront Villas",
+    "slug": "ayia-napa-seafront-villas",
+    "location": "Ayia Napa",
+    "year": 2018,
+    "status": "completed",
+    "client": "Private clients",
+    "summary": "Six beachfront villas on the last undeveloped dunes east of Ayia Napa — glass pavilions held low behind replanted dune grass.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "On a 300-metre strip of dune east of Ayia Napa, six villas sit in a single staggered line, none taller than the tamarisk trees that were there first. Each house is a pair of pavilions — a stone sleeping wing and a glass living wing — joined by a shaded breezeway that funnels the sea wind through the plan on the hottest days of August."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Building on sand is a foundation problem older than the town behind it. The villas bear on driven mini-piles socketed into the calcarenite bed nine metres down, with ground beams bridging the mobile dune layer entirely. The dune itself was rebuilt as part of the works — sand fencing and 14,000 planted grasses now hold a ridge that had been losing ground for years."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Seafront glazing at this exposure is specified like ship's equipment: cyclone-rated sliding walls, marine-anodised frames and glass that shrugs off salt spray without coatings that cloud. The stone wings are local calcarenite, quarried twenty kilometres away, laid by two master masons who signed their work inside a lintel."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Seven years on, the dune ridge stands a metre higher than at handover, and the villas have weathered from new to inevitable. It remains the project our residential clients most often ask to visit before commissioning their own."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Luxury single-storey villa with pool in evening light",
+    "specs": [
+      { "label": "Scope", "value": "Six beachfront villas and dune restoration" },
+      { "label": "Built area", "value": "2,400 sq.m" },
+      { "label": "Duration", "value": "20 months (2016–2018)" },
+      { "label": "Services", "value": "Construction, marine-grade envelope, landscape restoration" },
+      { "label": "Client type", "value": "Private clients" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Modern villa with pool reflecting the evening sky",
+        "layout": "full",
+        "caption": "Villa 2 from the dune path — the living pavilion opens fully to the water."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Minimal interior with timber ceiling and soft light",
+        "layout": "half",
+        "caption": "The sleeping wings keep small windows and thick stone — cool by geometry."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519046904884-53103b34b206?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Beach with clear water and pale sand",
+        "layout": "offset",
+        "caption": "The rebuilt dune ridge, one year after planting."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1920&auto=format&fit=crop",
+        "alt": "House facade with clean lines and warm exterior lighting",
+        "layout": "half",
+        "caption": "Local calcarenite laid in flush courses — the masons signed inside a lintel."
+      }
+    ],
+    "isFeatured": false,
+    "sortOrder": 8,
+    "pageStatus": "published"
+  },
+  {
+    "id": "proj-9",
+    "categoryId": "cat-res",
+    "name": "Elaia Courtyard Homes",
+    "slug": "elaia-courtyard-homes",
+    "location": "Limassol",
+    "year": 2016,
+    "status": "completed",
+    "client": "Elaia Living Ltd",
+    "summary": "Thirty-two family homes around three shared courtyards in Limassol's growing north — density done with gardens instead of corridors.",
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Elaia answers a question Limassol keeps asking as it grows: how to house families at real density without stacking them in corridors. Thirty-two two- and three-storey homes are arranged around three shared courtyards, car parking is pushed to the perimeter, and the space between front doors belongs to bicycles, fig trees and children — a village diagram executed with contemporary means."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "The construction logic was repetition without monotony: a single structural cell — cross-wall concrete at a 5.4-metre rhythm — is rotated, mirrored and stepped to produce nine distinct house types. Repetition bought speed and precision; the stepping buys each home a roof terrace shaded by its neighbour's wall through the worst of the afternoon."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Finishes stay deliberately robust and repairable — self-coloured render, terrazzo stairs, hardwood screens — because a family home's finishes should survive a tricycle. Each courtyard drains to a buried cistern that irrigates the shared planting; the olive trees the project is named for were transplanted, already sixty years old, from the groves the development replaced."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A decade after completion, Elaia's resale values lead its district and the original owners' association still runs the harvest of its own olives every November. It was the group's 500th home milestone project — and remains its favourite argument that ordinary housing deserves extraordinary care."
+            }
+          ]
+        }
+      ]
+    },
+    "coverImage": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=1920&auto=format&fit=crop",
+    "coverImageAlt": "Family house with warm brick facade at dusk",
+    "specs": [
+      { "label": "Scope", "value": "32 courtyard homes, shared landscape, perimeter parking" },
+      { "label": "Built area", "value": "6,800 sq.m" },
+      { "label": "Duration", "value": "24 months (2014–2016)" },
+      { "label": "Services", "value": "Design & build, landscaping, community infrastructure" },
+      { "label": "Client type", "value": "Private developer" }
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1920&auto=format&fit=crop",
+        "alt": "White modern house with clean geometric lines",
+        "layout": "full",
+        "caption": "House type D at the courtyard corner — the same cell, rotated and stepped."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Comfortable family living room with natural light",
+        "layout": "half",
+        "caption": "Ground floors run front-to-back so the courtyard is always in view."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Family kitchen with daylight from a large window",
+        "layout": "offset",
+        "caption": "Kitchens face the shared gardens — supervision by architecture."
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?q=80&w=1920&auto=format&fit=crop",
+        "alt": "House exterior with landscaped garden path",
+        "layout": "half",
+        "caption": "Sixty-year-old olives, transplanted from the groves the site replaced."
+      }
+    ],
+    "isFeatured": false,
+    "sortOrder": 9,
+    "pageStatus": "published"
+  }
+]
