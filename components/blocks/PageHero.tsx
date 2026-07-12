@@ -73,7 +73,7 @@ export default async function PageHero({ props }: BlockComponentProps) {
             className="absolute inset-0"
             style={{
               background:
-                "linear-gradient(to top, rgb(14 18 22 / 0.85) 0%, rgb(14 18 22 / 0.45) 45%, rgb(14 18 22 / 0.25) 100%)",
+                "linear-gradient(to top, rgb(10 10 13 / 0.85) 0%, rgb(10 10 13 / 0.45) 45%, rgb(10 10 13 / 0.25) 100%)",
             }}
           />
         </>

@@ -5,6 +5,7 @@ import { parseBlockProps } from "@/lib/blocks/defs";
 
 import Hero from "./Hero";
 import PageHero from "./PageHero";
+import ConstructionScene from "./ConstructionScene";
 import StatsCounters from "./StatsCounters";
 import RichTextBlock from "./RichTextBlock";
 import ImageWithText from "./ImageWithText";
@@ -48,6 +49,7 @@ export interface BlockComponentProps {
 export const BLOCK_COMPONENTS: Record<BlockType, ComponentType<any>> = {
   hero: Hero,
   pageHero: PageHero,
+  constructionScene: ConstructionScene,
   statsCounters: StatsCounters,
   richText: RichTextBlock,
   imageWithText: ImageWithText,

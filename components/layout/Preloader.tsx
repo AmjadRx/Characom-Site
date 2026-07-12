@@ -152,7 +152,7 @@ export default function Preloader({
               className="absolute inset-0"
               style={{
                 background:
-                  "linear-gradient(to top, rgb(14 18 22 / 0.92) 0%, rgb(14 18 22 / 0.55) 40%, rgb(14 18 22 / 0.35) 100%)",
+                  "linear-gradient(to top, rgb(10 10 13 / 0.92) 0%, rgb(10 10 13 / 0.55) 40%, rgb(10 10 13 / 0.35) 100%)",
               }}
             />
 

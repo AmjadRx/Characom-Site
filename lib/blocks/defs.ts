@@ -70,8 +70,8 @@ export const themeSchema = z.enum(["gold", "cypress", "aegean"]);
 
 const THEME_OPTIONS: FieldOption[] = [
   { label: "Gold (Residential)", value: "gold" },
-  { label: "Cypress green (Government)", value: "cypress" },
-  { label: "Aegean blue (Real Estate)", value: "aegean" },
+  { label: "Deep green (Government)", value: "cypress" },
+  { label: "Royal purple (Real Estate)", value: "aegean" },
 ];
 
 const linkFields = (name: string, label: string): FieldDef => ({
@@ -93,6 +93,7 @@ const darkField: FieldDef = {
 export const BLOCK_TYPES = [
   "hero",
   "pageHero",
+  "constructionScene",
   "statsCounters",
   "richText",
   "imageWithText",
@@ -247,6 +248,38 @@ export const BLOCK_DEFS: Record<BlockType, BlockDef> = {
         label: "Background photo (full-bleed with scrim)",
         kind: "image",
       },
+    ],
+  ),
+
+  constructionScene: def(
+    "constructionScene",
+    "3D construction timelapse",
+    "Scroll-driven isometric 3D tower rising floor by floor, with a working crane — pure CSS 3D, no libraries.",
+    {
+      kicker: z.string().default(""),
+      heading: z.string().default(""),
+      text: z.string().default(""),
+      floors: z.number().min(4).max(20).default(12),
+      caption: z.string().default(""),
+    },
+    {
+      kicker: "The build, distilled",
+      heading: "From ground to skyline",
+      text: "",
+      floors: 12,
+      caption: "Scroll to raise the tower",
+    },
+    [
+      kickerField,
+      headingField,
+      { name: "text", label: "Supporting text", kind: "text" },
+      {
+        name: "floors",
+        label: "Floors",
+        kind: "number",
+        help: "4–20. Scroll builds the tower floor by floor.",
+      },
+      { name: "caption", label: "Caption under the scene", kind: "text" },
     ],
   ),
 
