@@ -11,3 +11,7 @@ desktop.ini
 # Logs / misc
 *.log
 node_modules/
+
+# Motion AI Kit skills — licensed to the owner's Motion+ account, fetched
+# per-machine via `npx motion-ai`; not for redistribution in a public repo
+.claude/skills/motion/
