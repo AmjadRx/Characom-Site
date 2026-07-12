@@ -3,17 +3,17 @@
   "slug": "home",
   "status": "published",
   "seo": {
-    "title": "Characom Group \u2014 Building Cyprus since 1987",
-    "description": "Cypriot construction and development group. Government infrastructure, real estate development and residential communities \u2014 built to outlast us, since 1987."
+    "title": "Characom Group — Building Cyprus since 1987",
+    "description": "Cypriot construction and development group. Government infrastructure, real estate development and residential communities — built to outlast us, since 1987."
   },
   "sections": [
     {
       "id": "sec-home-hero",
       "type": "hero",
       "props": {
-        "kicker": "CHARACOM GROUP \u2014 BUILDING CYPRUS SINCE 1987",
+        "kicker": "CHARACOM GROUP — BUILDING CYPRUS SINCE 1987",
         "headline": "We build what outlasts us.",
-        "subheadline": "Government infrastructure, real estate and residential craft \u2014 delivered across Cyprus by one accountable team.",
+        "subheadline": "Government infrastructure, real estate and residential craft — delivered across Cyprus by one accountable team.",
         "buttons": [
           {
             "label": "Explore Portfolio",
@@ -59,7 +59,7 @@
       "props": {
         "kicker": "The Group",
         "heading": "Four decades of building Cyprus",
-        "body": "Characom Group began in 1987 as a two-crew contractor pouring foundations on the edge of Nicosia. Four decades later, the same discipline runs through everything we deliver \u2014 from motorway interchanges to seafront homes.\n\nWe keep development, engineering and construction under one roof. It is a slower way to build a company, and it is why clients return: a single team stays accountable from first survey to final handover.\n\nToday more than 650 engineers, builders and craftspeople carry the group's standard across the island \u2014 build it once, build it right, build it to outlast us.",
+        "body": "Characom Group began in 1987 as a two-crew contractor pouring foundations on the edge of Nicosia. Four decades later, the same discipline runs through everything we deliver — from motorway interchanges to seafront homes.\n\nWe keep development, engineering and construction under one roof. It is a slower way to build a company, and it is why clients return: a single team stays accountable from first survey to final handover.\n\nToday more than 650 engineers, builders and craftspeople carry the group's standard across the island — build it once, build it right, build it to outlast us.",
         "image": {
           "src": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1920&auto=format&fit=crop",
           "alt": "Modern concrete building rising against the sky"
@@ -85,7 +85,24 @@
         "variant": "mansion",
         "floors": 12,
         "caption": "Scroll to build",
-        "reasons": []
+        "reasons": [
+          {
+            "title": "Cypriot and family owned",
+            "text": "Three generations of one family, building on the island we call home since 1987."
+          },
+          {
+            "title": "Deep partner ties",
+            "text": "Suppliers, banks and municipalities that have worked with us for decades."
+          },
+          {
+            "title": "Locally known, locally trusted",
+            "text": "Walk any Cypriot town and you will pass a Characom build within minutes."
+          },
+          {
+            "title": "Here long after handover",
+            "text": "Our aftercare teams live in the communities we build."
+          }
+        ]
       },
       "visible": true
     },
@@ -188,7 +205,7 @@
           {
             "year": "1999",
             "title": "First government contract",
-            "text": "A district school extension in Larnaca opens the group's public-works record \u2014 85 contracts and counting."
+            "text": "A district school extension in Larnaca opens the group's public-works record — 85 contracts and counting."
           },
           {
             "year": "2011",
@@ -228,7 +245,7 @@
       "props": {
         "kicker": "Next",
         "heading": "Have a project in mind?",
-        "text": "Tell us what you are planning \u2014 an engineer replies within two working days.",
+        "text": "Tell us what you are planning — an engineer replies within two working days.",
         "button": {
           "label": "Get in touch",
           "href": "/contact",
