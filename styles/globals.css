@@ -5,17 +5,20 @@
    ───────────────────────────────────────────────────────────────────────── */
 
 :root {
-  /* Palette */
-  --plaster: #f7f5f0;
-  --white: #ffffff;
-  --ink: #0e1216;
-  --ink-soft: #1a2129;
-  --gold: #c8912d;
-  --gold-bright: #e3b75c;
-  --gold-deep: #9a6e1b;
-  --cypress: #2f5d46;
-  --aegean: #1b5d7d;
-  --stone: #8a8577;
+  /* Palette — "Noir Luxe" (owner directive 2026-07-12):
+     black · gold · royal purple · dark green · tan-white.
+     Token KEYS are stable (content/themes reference them); only values and
+     display names changed. --aegean now carries the royal purple. */
+  --plaster: #ede6d9;
+  --white: #f6f1e7;
+  --ink: #0a0a0d;
+  --ink-soft: #141419;
+  --gold: #c4a052;
+  --gold-bright: #e3c57c;
+  --gold-deep: #7e6426;
+  --cypress: #17352a;
+  --aegean: #46265c;
+  --stone: #92897a;
 
   /* Per-section accent — category pages override this (cypress/aegean/gold) */
   --accent: var(--gold);
@@ -221,8 +224,8 @@ h4 {
 /* Radial gold gradient mesh for hero / CTA sections on dark */
 .gold-mesh {
   background:
-    radial-gradient(60% 50% at 80% 10%, rgb(200 145 45 / 0.16), transparent 65%),
-    radial-gradient(45% 45% at 10% 90%, rgb(200 145 45 / 0.1), transparent 60%),
+    radial-gradient(60% 50% at 80% 10%, rgb(196 160 82 / 0.16), transparent 65%),
+    radial-gradient(45% 45% at 10% 90%, rgb(196 160 82 / 0.1), transparent 60%),
     var(--ink);
 }
 

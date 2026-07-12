@@ -40,7 +40,7 @@ export default async function CtaBand({ props }: BlockComponentProps) {
               className="absolute inset-0"
               style={{
                 background:
-                  "linear-gradient(to top, rgb(14 18 22 / 0.9), rgb(14 18 22 / 0.6))",
+                  "linear-gradient(to top, rgb(10 10 13 / 0.9), rgb(10 10 13 / 0.6))",
               }}
             />
           </div>

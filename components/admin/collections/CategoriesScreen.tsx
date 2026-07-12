@@ -34,7 +34,7 @@ import { MediaPickerHost } from "@/components/admin/media";
 const THEME_OPTIONS = [
   { label: "Gold (Residential)", value: "gold" },
   { label: "Cypress green (Government)", value: "cypress" },
-  { label: "Aegean blue (Real Estate)", value: "aegean" },
+  { label: "Royal purple (Real Estate)", value: "aegean" },
 ];
 
 const THEME_SWATCH: Record<ThemeColor, string> = {

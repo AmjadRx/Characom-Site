@@ -11,8 +11,8 @@ export const alt = "Characom Group — We build what outlasts us.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-const INK = "#0e1216";
-const GOLD = "#c8912d";
+const INK = "#0a0a0d";
+const GOLD = "#c4a052";
 const GOLD_BRIGHT = "#e3b75c";
 const STONE = "#8a8577";
 const PLASTER = "#f7f5f0";

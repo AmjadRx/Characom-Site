@@ -87,6 +87,18 @@
       "visible": true
     },
     {
+      "id": "sec-construction-scene",
+      "type": "constructionScene",
+      "props": {
+        "kicker": "The build, distilled",
+        "heading": "From ground to skyline",
+        "text": "Every Characom project follows the same disciplined ascent \u2014 scroll to raise one of ours.",
+        "floors": 12,
+        "caption": "Scroll to raise the tower"
+      },
+      "visible": true
+    },
+    {
       "id": "sec-home-featured",
       "type": "featuredProjects",
       "props": {

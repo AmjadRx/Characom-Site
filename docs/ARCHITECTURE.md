@@ -420,3 +420,20 @@ Owner directed a fluency/luxury pass on the same structure:
   under reduced motion.
 - **Scroll feel:** Lenis tuned to a 1.35s expo-eased glide.
 - Palette, structure, routes, content model: unchanged.
+
+## 16. Amendment — "Noir Luxe" palette + deterministic transitions (2026-07-12)
+
+- **Palette** (owner directive): black `#0A0A0D` · gold `#C4A052` (bright
+  `#E3C57C`, deep `#7E6426`) · royal purple `#46265C` (token key `--aegean`,
+  display name updated) · deep green `#17352A` (`--cypress`) · tan-white
+  `#EDE6D9` (`--plaster`). Token KEYS unchanged for content compatibility.
+- **Page transitions rewritten**: the dual-panel AnimatePresence choreography
+  raced and could leave a covering panel stuck (reported on sector pages).
+  Now a single persistent overlay + explicit state machine: intercepted
+  internal link clicks → cover (photo + %) → router.push behind cover →
+  reveal, with a 3s watchdog that guarantees the overlay always clears. The
+  site shell no longer remounts per navigation; ScrollTrigger cleanup now
+  kills only triggers whose DOM was actually unmounted.
+- **New block `constructionScene`**: scroll-scrubbed isometric CSS-3D tower
+  (floors assemble bottom-up, slewing crane, topping-out glow) — placed on
+  the home page; floors/copy admin-editable. Pure CSS 3D + GSAP, no deps.
