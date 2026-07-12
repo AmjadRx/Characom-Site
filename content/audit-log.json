@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1783471004102-z0ed2p",
+    "actor": "admin@characom.dev",
+    "entity": "page",
+    "entityId": "partners",
+    "action": "publish",
+    "at": "2026-07-08T00:36:44.102Z"
+  },
+  {
+    "id": "1783471004100-5y62gv",
+    "actor": "admin@characom.dev",
+    "entity": "page",
+    "entityId": "partners",
+    "action": "update",
+    "at": "2026-07-08T00:36:44.100Z"
+  },
+  {
+    "id": "1783471003784-938fkc",
+    "actor": "admin@characom.dev",
+    "entity": "page",
+    "entityId": "partners",
+    "action": "update",
+    "at": "2026-07-08T00:36:43.784Z"
+  }
+]

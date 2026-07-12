@@ -1,0 +1,195 @@
+{
+  "title": "About the Group",
+  "slug": "about",
+  "status": "published",
+  "seo": {
+    "title": "About the Group — Characom Group",
+    "description": "The story of Characom Group: founded in Nicosia in 1987, now 650+ engineers and builders delivering infrastructure, developments and homes across Cyprus."
+  },
+  "sections": [
+    {
+      "id": "sec-about-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "About the Group",
+        "heading": "Built to endure",
+        "subheading": "One family firm, four decades, three sectors — and a single standard across all of them.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-story",
+      "type": "imageWithText",
+      "props": {
+        "kicker": "Our story",
+        "heading": "From two crews to six hundred and fifty",
+        "body": "Characom was founded in 1987 by Andreas Characos, a site engineer who believed a contractor's reputation should be auditable — every promise written down, every handover walked with the client. The first office was a site cabin; the first ledger is still in the boardroom.\n\nGrowth came the unfashionable way: no acquisitions, no borrowed badges. The group added a precast yard when its bridges needed one, a joinery workshop when its houses deserved better stairs, and a development arm when clients kept asking who they should buy land with.\n\nThe result is unusual on the island — a group that can take a project from first survey to final key under one name, and answer for all of it. That is what we mean when we say we build what outlasts us.",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1920&auto=format&fit=crop",
+        "alt": "Industrial structures silhouetted at dusk"
+        },
+        "imageSide": "right",
+        "link": {
+          "label": "See the work",
+          "href": "/portfolio",
+          "variant": "text",
+          "newTab": false
+        },
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-timeline",
+      "type": "timeline",
+      "props": {
+        "kicker": "Since 1987",
+        "heading": "Milestones",
+        "milestones": [
+          {
+            "year": "1987",
+            "title": "Founded in Nicosia",
+            "text": "Andreas Characos registers the firm with two crews and one mixer truck. The first contract: foundations for a neighbour's bakery, finished three days early."
+          },
+          {
+            "year": "1994",
+            "title": "Limassol office opens",
+            "text": "The group follows its clients south, opening a second office to serve the coast's growing residential demand."
+          },
+          {
+            "year": "1999",
+            "title": "First government contract",
+            "text": "A district school extension in Larnaca begins the public-works record — delivered early, and the start of 85 government contracts to date."
+          },
+          {
+            "year": "2011",
+            "title": "500th home delivered",
+            "text": "The Elaia courtyard scheme in Limassol marks half a thousand families housed. The owners still harvest the development's olive trees every November."
+          },
+          {
+            "year": "2018",
+            "title": "Triple ISO certification",
+            "text": "Quality, environment and safety systems certified to ISO 9001, 14001 and 45001 — turning house rules into audited commitments."
+          },
+          {
+            "year": "2026",
+            "title": "The waterfront decade",
+            "text": "With the Paphos Harbour Quarter and the Larnaca coastal works both under way, the group's largest chapter is being written at the water's edge."
+          }
+        ],
+        "compact": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-team",
+      "type": "teamGrid",
+      "props": {
+        "kicker": "Leadership",
+        "heading": "The people who answer for it",
+        "members": [
+          {
+            "name": "Andreas Characos",
+            "role": "Chairman & Founder",
+            "photo": {
+              "src": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1920&auto=format&fit=crop",
+              "alt": "Portrait of Andreas Characos, Chairman and Founder"
+            },
+            "bio": "Site engineer turned founder. Still walks a site every week, and still keeps the 1987 ledger in the boardroom as a reminder of what a promise costs."
+          },
+          {
+            "name": "Elena Characou",
+            "role": "Chief Executive Officer",
+            "photo": {
+              "src": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1920&auto=format&fit=crop",
+              "alt": "Portrait of Elena Characou, Chief Executive Officer"
+            },
+            "bio": "Led the group's move into development and its waterfront programme. Believes a builder's best marketing is a client who comes back twice."
+          },
+          {
+            "name": "Marios Ioannou",
+            "role": "Director of Engineering",
+            "photo": {
+              "src": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1920&auto=format&fit=crop",
+              "alt": "Portrait of Marios Ioannou, Director of Engineering"
+            },
+            "bio": "Bridge engineer by training, runs the precast yard and every structural sign-off. His rule for the drawing office: if you would not stand under it, do not stamp it."
+          },
+          {
+            "name": "Katerina Georgiou",
+            "role": "Director of Quality & Sustainability",
+            "photo": {
+              "src": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1920&auto=format&fit=crop",
+              "alt": "Portrait of Katerina Georgiou, Director of Quality and Sustainability"
+            },
+            "bio": "Keeps the group's three ISO systems and its recycled-materials programme honest. Numbers our clients can audit, not adjectives."
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-stats",
+      "type": "statsCounters",
+      "props": {
+        "kicker": "The record",
+        "heading": "",
+        "useSiteStats": true,
+        "items": [],
+        "dark": true
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-recognition",
+      "type": "logoWall",
+      "props": {
+        "kicker": "Recognition",
+        "heading": "Awards & memberships",
+        "logos": [
+          {
+            "name": "Cyprus Construction Awards 2024",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "European Property Awards — Finalist 2023",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "Cyprus Employers & Industrialists Federation",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          },
+          {
+            "name": "Cyprus Green Building Council",
+            "image": { "src": "", "alt": "" },
+            "href": ""
+          }
+        ]
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-about-cta",
+      "type": "ctaBand",
+      "props": {
+        "kicker": "Work with us",
+        "heading": "Build something that outlasts us both",
+        "text": "From public tenders to private homes — start the conversation.",
+        "button": {
+          "label": "Get in touch",
+          "href": "/contact",
+          "variant": "gold",
+          "newTab": false
+        }
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

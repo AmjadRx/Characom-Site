@@ -1,0 +1,50 @@
+{
+  "title": "Get in Touch",
+  "slug": "contact",
+  "status": "published",
+  "seo": {
+    "title": "Get in Touch — Characom Group",
+    "description": "Contact Characom Group. Offices in Nicosia and Limassol — tell us about your project and an engineer will reply within two working days."
+  },
+  "sections": [
+    {
+      "id": "sec-contact-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Contact",
+        "heading": "Get in touch",
+        "subheading": "Two offices, one team — tell us what you are planning.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-contact-methods",
+      "type": "contactMethods",
+      "props": {
+        "showOffices": true
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-contact-form",
+      "type": "contactForm",
+      "props": {
+        "heading": "Tell us about your project",
+        "text": "A short description is enough to start — an engineer, not a mailbox, reads every inquiry."
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-contact-map",
+      "type": "mapEmbed",
+      "props": {
+        "embedUrl": ""
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Cookie Policy",
+  "slug": "legal/cookies",
+  "status": "published",
+  "seo": {
+    "title": "Cookie Policy — Characom Group",
+    "description": "The cookies and similar technologies used by the Characom Group website, and how to control them."
+  },
+  "sections": [
+    {
+      "id": "sec-cookies-hero",
+      "type": "pageHero",
+      "props": {
+        "kicker": "Legal",
+        "heading": "Cookie Policy",
+        "subheading": "Last updated 7 July 2026 — placeholder text pending legal review.",
+        "theme": "gold",
+        "dark": false
+      },
+      "visible": true
+    },
+    {
+      "id": "sec-cookies-body",
+      "type": "richText",
+      "props": {
+        "kicker": "",
+        "body": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "This website is deliberately light on cookies. We set no advertising cookies, no cross-site trackers and no third-party analytics by default. What the site does store on your device falls into the small set below."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": { "level": 2 },
+              "content": [{ "type": "text", "text": "Strictly necessary storage" }]
+            },
+            {
+              "type": "bulletList",
+              "content": [
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Cookie consent choice — remembers whether you have acknowledged the cookie banner, so it does not reappear on every visit (stored in your browser's local storage, kept for 12 months)."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Motion preference — remembers if you have switched on reduced motion via the toggle in the footer (local storage, kept until you clear it)."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Preloader flag — remembers that the opening animation has already played this session (session storage, deleted when you close the tab)."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "listItem",
+                  "content": [
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Administrator session cookie — set only for authorised staff who sign in to the content management area; it never applies to ordinary visitors (expires after 12 hours)."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": { "level": 2 },
+              "content": [{ "type": "text", "text": "Embedded content" }]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "The contact page includes an embedded map loaded from OpenStreetMap. The map is loaded lazily, and when it loads, your browser requests tiles from OpenStreetMap's servers, which receive your IP address as part of that request. OpenStreetMap's own privacy policy applies to that processing."
+                }
+              ]
+            },
+            {
+              "type": "heading",
+              "attrs": { "level": 2 },
+              "content": [{ "type": "text", "text": "Managing cookies" }]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Because none of the storage above is used for tracking, the site works fully whether or not you clear it. You can remove all of it at any time through your browser's settings (usually under Privacy → Clear browsing data), and you can instruct your browser to block cookies entirely. If we ever introduce analytics or other non-essential cookies, we will ask for your consent first and update this policy before doing so."
+                }
+              ]
+            }
+          ]
+        },
+        "maxWidth": "narrow",
+        "dark": false
+      },
+      "visible": true
+    }
+  ],
+  "draftSections": null,
+  "updatedAt": "2026-07-07T12:00:00.000Z"
+}

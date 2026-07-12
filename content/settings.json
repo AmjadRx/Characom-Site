@@ -1,0 +1,45 @@
+{
+  "siteName": "Characom Group",
+  "tagline": "We build what outlasts us.",
+  "foundedYear": 1987,
+  "contact": {
+    "phones": ["+357 22 000 000", "+357 25 000 000"],
+    "emails": ["info@characom.example.com", "projects@characom.example.com"],
+    "fax": "+357 22 000 001",
+    "offices": [
+      {
+        "name": "Nicosia — Head Office",
+        "address": "12 Evagorou Avenue, 1065 Nicosia, Cyprus",
+        "phone": "+357 22 000 000",
+        "hours": "Mon–Fri 08:00–17:00"
+      },
+      {
+        "name": "Limassol Office",
+        "address": "48 Spyrou Kyprianou Avenue, 4004 Limassol, Cyprus",
+        "phone": "+357 25 000 000",
+        "hours": "Mon–Fri 08:30–17:00"
+      }
+    ]
+  },
+  "branding": {
+    "logoText": "CHARACOM"
+  },
+  "seoDefaults": {
+    "title": "Characom Group — Building Cyprus since 1987",
+    "description": "Cypriot construction and development group delivering government infrastructure, real estate development and residential communities across the island since 1987."
+  },
+  "stats": [
+    { "label": "Years of experience", "value": 38, "suffix": "+" },
+    { "label": "Projects delivered", "value": 240, "suffix": "+" },
+    { "label": "Employees & engineers", "value": 650, "suffix": "+" },
+    { "label": "Sq.m developed", "value": 1200000, "suffix": "+" },
+    { "label": "Government contracts", "value": 85, "suffix": "+" }
+  ],
+  "integrations": {
+    "mapEmbedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=33.33%2C35.14%2C33.41%2C35.20&layer=mapnik"
+  },
+  "heroMedia": {
+    "mode": "particles"
+  },
+  "maintenanceMode": false
+}
