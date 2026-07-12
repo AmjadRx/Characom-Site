@@ -3,8 +3,8 @@
   "slug": "contact",
   "status": "published",
   "seo": {
-    "title": "Get in Touch — Characom Group",
-    "description": "Contact Characom Group. Offices in Nicosia and Limassol — tell us about your project and an engineer will reply within two working days."
+    "title": "Get in Touch \u2014 Characom Group",
+    "description": "Contact Characom Group. Offices in Nicosia and Limassol \u2014 tell us about your project and an engineer will reply within two working days."
   },
   "sections": [
     {
@@ -13,9 +13,13 @@
       "props": {
         "kicker": "Contact",
         "heading": "Get in touch",
-        "subheading": "Two offices, one team — tell us what you are planning.",
+        "subheading": "Two offices, one team \u2014 tell us what you are planning.",
         "theme": "gold",
-        "dark": false
+        "dark": false,
+        "image": {
+          "src": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=2400&auto=format&fit=crop",
+          "alt": "Modern building facade"
+        }
       },
       "visible": true
     },
@@ -32,7 +36,7 @@
       "type": "contactForm",
       "props": {
         "heading": "Tell us about your project",
-        "text": "A short description is enough to start — an engineer, not a mailbox, reads every inquiry."
+        "text": "A short description is enough to start \u2014 an engineer, not a mailbox, reads every inquiry."
       },
       "visible": true
     },

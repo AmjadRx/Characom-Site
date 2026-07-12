@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { cormorant, jost } from "@/lib/fonts";
+import CssStudio from "@/components/dev/CssStudio";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -16,7 +17,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${jost.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <CssStudio />
+      </body>
     </html>
   );
 }

@@ -2,7 +2,7 @@
   "name": "characom-site",
   "version": "1.0.0",
   "private": true,
-  "description": "CHARACOM GROUP \u2014 cinematic marketing site + GitHub-backed admin CMS. Next.js App Router, Tailwind v4, GSAP + Framer Motion + Lenis. Vercel + GitHub only.",
+  "description": "CHARACOM GROUP — cinematic marketing site + GitHub-backed admin CMS. Next.js App Router, Tailwind v4, GSAP + Framer Motion + Lenis. Vercel + GitHub only.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -37,6 +37,7 @@
     "@types/node": "^22.19.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "cssstudio": "^1.2.0",
     "tailwindcss": "^4.3.2",
     "typescript": "^5.9.0"
   },

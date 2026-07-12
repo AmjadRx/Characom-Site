@@ -45,8 +45,11 @@ export default async function SiteLayout({
   const [settings, nav] = await Promise.all([getSettings(), getNavigation()]);
 
   return (
-    <SiteProviders>
-      <Preloader logoText={settings.branding.logoText} />
+    <SiteProviders loaderImages={settings.loaderImages}>
+      <Preloader
+        logoText={settings.branding.logoText}
+        images={settings.loaderImages}
+      />
       <a
         href="#main"
         className="fixed left-4 top-4 z-[80] -translate-y-[200%] rounded-pill bg-ink px-5 py-3 text-sm font-semibold text-plaster opacity-0 transition-transform focus-visible:translate-y-0 focus-visible:opacity-100"

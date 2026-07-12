@@ -3,7 +3,7 @@
   "slug": "portfolio",
   "status": "published",
   "seo": {
-    "title": "Portfolio — Characom Group",
+    "title": "Portfolio \u2014 Characom Group",
     "description": "Selected Characom Group projects across Cyprus: government infrastructure, real estate development and residential communities."
   },
   "sections": [
@@ -13,9 +13,13 @@
       "props": {
         "kicker": "Our work",
         "heading": "Portfolio",
-        "subheading": "Nine selected projects across three sectors — from motorway interchanges to seafront villas.",
+        "subheading": "Nine selected projects across three sectors \u2014 from motorway interchanges to seafront villas.",
         "theme": "gold",
-        "dark": false
+        "dark": false,
+        "image": {
+          "src": "https://images.unsplash.com/photo-1486718448742-163732cd1544?q=80&w=2400&auto=format&fit=crop",
+          "alt": "Concrete architecture rising against the sky"
+        }
       },
       "visible": true
     },

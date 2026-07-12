@@ -287,6 +287,15 @@ export default function FullscreenMenu({
                       Fax {settings.contact.fax}
                     </li>
                   )}
+                  <li className="pt-3">
+                    <a
+                      href="/admin"
+                      onClick={onClose}
+                      className="link-underline text-sm font-medium text-gold-bright"
+                    >
+                      Admin panel
+                    </a>
+                  </li>
                 </ul>
               </div>
 

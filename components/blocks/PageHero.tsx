@@ -2,12 +2,14 @@ import type { CSSProperties } from "react";
 import type { BlockComponentProps } from "@/components/blocks/registry";
 import type { ThemeColor } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
-import { Reveal, SplitTextReveal } from "@/components/motion";
+import { KenBurns, Reveal, SplitTextReveal } from "@/components/motion";
 
 /**
- * Short inner-page hero (~40vh): kicker + display-2 split-text heading +
- * optional subheading. The theme prop tints the section accent via inline
- * CSS custom properties; dark renders on ink.
+ * Inner-page hero: kicker + display-2 split-text heading + optional
+ * subheading. With a background photo set (Sobha-style) it becomes a
+ * full-bleed image hero — slow Ken Burns, ink scrim, white type — and grows
+ * to ~60svh. The theme prop tints the section accent via inline CSS custom
+ * properties; dark renders on ink.
  */
 
 type PageHeroProps = {
@@ -16,6 +18,7 @@ type PageHeroProps = {
   subheading: string;
   theme: ThemeColor;
   dark: boolean;
+  image?: { src: string; alt: string };
 };
 
 /** Local accent override per CONTRACTS.md ("each block implements locally"). */
@@ -39,16 +42,44 @@ export default async function PageHero({ props }: BlockComponentProps) {
   const p = props as unknown as PageHeroProps;
   if (!p.kicker && !p.heading && !p.subheading) return null;
 
+  const hasImage = Boolean(p.image?.src);
+  const onDark = hasImage || p.dark;
+
   return (
     <section
-      data-nav-theme={p.dark ? "dark" : undefined}
+      data-nav-theme={onDark ? "dark" : undefined}
       className={cn(
-        "relative flex min-h-[40svh] items-end",
-        p.dark && "section-dark on-dark",
+        "relative flex items-end overflow-hidden",
+        hasImage ? "min-h-[60svh] bg-ink text-plaster" : "min-h-[40svh]",
+        !hasImage && p.dark && "section-dark",
+        onDark && "on-dark",
       )}
       style={themeVars(p.theme ?? "gold")}
     >
-      <div className="container-site w-full pt-[calc(var(--nav-h)+3.5rem)] pb-14 md:pb-20">
+      {hasImage ? (
+        <>
+          <div className="absolute inset-0">
+            <KenBurns
+              src={p.image!.src}
+              alt={p.image!.alt ?? ""}
+              className="h-full w-full"
+              priority
+              sizes="100vw"
+            />
+          </div>
+          {/* Ink scrim — bottom-heavy so the type stays AA-readable */}
+          <div
+            aria-hidden="true"
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(to top, rgb(14 18 22 / 0.85) 0%, rgb(14 18 22 / 0.45) 45%, rgb(14 18 22 / 0.25) 100%)",
+            }}
+          />
+        </>
+      ) : null}
+
+      <div className="container-site relative w-full pt-[calc(var(--nav-h)+3.5rem)] pb-14 md:pb-20">
         {p.kicker ? (
           <Reveal variant="fade" as="p" className="mb-5">
             <span className="kicker kicker--accent">{p.kicker}</span>
@@ -68,7 +99,7 @@ export default async function PageHero({ props }: BlockComponentProps) {
             delay={0.15}
             className={cn(
               "mt-5 max-w-[58ch] text-base md:text-lg",
-              p.dark ? "text-plaster/70" : "text-ink/70",
+              onDark ? "text-plaster/75" : "text-ink/70",
             )}
           >
             {p.subheading}

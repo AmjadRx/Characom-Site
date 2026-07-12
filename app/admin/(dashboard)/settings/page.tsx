@@ -562,6 +562,19 @@ export default function SettingsPage() {
           )}
         </SectionCard>
 
+        <SectionCard
+          title="Load screen photos"
+          description="Full-bleed construction photos shown behind the counting percentage on page loads and transitions. Empty = built-in placeholders. Use Media library URLs (/api/media/…) or full https URLs."
+        >
+          <StringListEditor
+            label="Photo URLs"
+            itemLabel="Photo URL"
+            placeholder="https://… or /api/media/…"
+            values={form.loaderImages ?? []}
+            onChange={(v) => patch({ loaderImages: v.filter(Boolean) })}
+          />
+        </SectionCard>
+
         <SectionCard title="Maintenance">
           <BooleanField
             label="Maintenance mode"
