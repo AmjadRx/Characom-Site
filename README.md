@@ -53,6 +53,18 @@ python -m http.server 8000
 - Fully keyboard/`Esc`-closable lightbox
 - Respects `prefers-reduced-motion` and degrades gracefully if a CDN fails
 
+## Motion AI Kit (AI-agent setup)
+
+The repo ships a project-scope MCP config (`.mcp.json`) for the official [Motion](https://motion.dev) MCP server, so AI coding agents (Claude Code, Cursor, …) get Motion's animation docs and tools. It reads your key from the `MOTION_TOKEN` environment variable — no secret is committed.
+
+To finish the setup ([Motion+](https://motion.dev/plus) subscription required):
+
+1. Generate an API key at [motion.dev/dashboard/tokens](https://motion.dev/dashboard/tokens).
+2. Export it: `export MOTION_TOKEN=<your-key>` (the MCP server picks it up via `.mcp.json`).
+3. Optionally install the token-gated Motion skills into `.claude/skills/` by running `npx motion-ai` in a terminal — it prompts for the key, scope, and agents. The fetched skill files are licensed to your Motion+ account, so avoid committing them to a public repo.
+
+Then run `/motion` in your agent to get started.
+
 ## Tech / dependencies (all via CDN — nothing to install)
 
 - [GSAP 3.12](https://gsap.com/) + ScrollTrigger — `cdnjs.cloudflare.com`
