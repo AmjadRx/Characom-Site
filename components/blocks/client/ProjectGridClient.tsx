@@ -3,7 +3,7 @@
 import { useId, useMemo, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import type { ProjectStatus, ThemeColor } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import { DUR, EASE_FM } from "@/lib/motion/constants";

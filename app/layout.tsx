@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { inter, spaceGrotesk } from "@/lib/fonts";
+import { cormorant, jost } from "@/lib/fonts";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${jost.variable}`}>
       <body>{children}</body>
     </html>
   );

@@ -1,53 +1,45 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";
 
-const SESSION_KEY = "characom-preloaded";
 /** counting portion of the sequence — exit wipe keeps total < DUR.preloaderMax */
-const COUNT_MS = 1400;
-const HOLD_MS = 200;
+const COUNT_MS = 1300;
+const HOLD_MS = 250;
 
 const EASE_IN_OUT: [number, number, number, number] = [...EASE_FM.inOut];
 
 type Phase = "pending" | "playing" | "exiting" | "done";
 
 export interface PreloaderProps {
-  /** wordmark shown in the mask reveal; defaults to the brand name */
+  /** small wordmark shown top-left; defaults to the brand name */
   logoText?: string;
 }
 
 /**
- * First-visit preloader (ARCHITECTURE §3.4), gated per session via
- * sessionStorage "characom-preloaded".
- * - counts 0 → 100% with a logo mask reveal (clip-path, rAF-driven)
- * - hard-capped at DUR.preloaderMax, then wipes away and unmounts cleanly
+ * Load counter (owner directive, 2026-07-12): on EVERY full page load the
+ * first thing a visitor sees is a giant percentage counting up — the luxury
+ * portfolio pattern (cf. DAMAC/Emaar-tier property sites). Client-side route
+ * changes get the same treatment from PageTransitionProvider.
+ * - giant serif number bottom-left, rAF-driven (no re-render per frame)
+ * - hairline gold progress along the very bottom edge of the viewport
+ * - hard-capped at DUR.preloaderMax, then wipes up and unmounts cleanly
  * - renders nothing on the server (never blocks content with JS off) and
- *   skips entirely under reduced motion
- * - aria-hidden, no focusable elements — it never traps focus
+ *   skips entirely under reduced motion; aria-hidden, never traps focus
  */
 export default function Preloader({ logoText = "CHARACOM" }: PreloaderProps) {
   const { reduced } = useReducedMotionPref();
   const [phase, setPhase] = useState<Phase>("pending");
   const started = useRef(false);
   const counterRef = useRef<HTMLSpanElement | null>(null);
-  const maskRef = useRef<HTMLSpanElement | null>(null);
   const barRef = useRef<HTMLDivElement | null>(null);
 
-  /* Decide once on mount: play, or skip (already seen / reduced motion). */
+  /* Decide once on mount: play, or skip (reduced motion only). */
   useEffect(() => {
     if (started.current) return;
     started.current = true;
-
-    let alreadyPlayed = false;
-    try {
-      alreadyPlayed = sessionStorage.getItem(SESSION_KEY) === "1";
-    } catch {
-      /* storage unavailable — treat as played so we never loop */
-      alreadyPlayed = true;
-    }
 
     /* The provider hook may not have hydrated its persisted toggle yet at
        this point, so also consult the media query + mirrored html attribute
@@ -57,17 +49,7 @@ export default function Preloader({ logoText = "CHARACOM" }: PreloaderProps) {
       window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
       document.documentElement.getAttribute("data-reduced-motion") === "true";
 
-    try {
-      sessionStorage.setItem(SESSION_KEY, "1");
-    } catch {
-      /* ignore */
-    }
-
-    if (alreadyPlayed || prefersReduced) {
-      setPhase("done");
-      return;
-    }
-    setPhase("playing");
+    setPhase(prefersReduced ? "done" : "playing");
   }, [reduced]);
 
   /* If the user preference flips to reduced mid-sequence, end immediately. */
@@ -93,8 +75,6 @@ export default function Preloader({ logoText = "CHARACOM" }: PreloaderProps) {
       const eased = 1 - Math.pow(1 - t, 3);
       const value = Math.round(eased * 100);
       if (counterRef.current) counterRef.current.textContent = String(value);
-      if (maskRef.current)
-        maskRef.current.style.clipPath = `inset(0 ${100 - value}% 0 0)`;
       if (barRef.current) barRef.current.style.transform = `scaleX(${eased})`;
       if (t < 1) {
         raf = requestAnimationFrame(tick);
@@ -125,9 +105,9 @@ export default function Preloader({ logoText = "CHARACOM" }: PreloaderProps) {
         <motion.div
           aria-hidden="true"
           role="presentation"
-          className="gold-mesh fixed inset-0 z-[100] flex items-center justify-center text-plaster"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 0.2 } }}
+          className="gold-mesh fixed inset-0 z-[100] select-none text-plaster"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
           exit={
             reduced
               ? { opacity: 0, transition: { duration: 0.15 } }
@@ -137,36 +117,36 @@ export default function Preloader({ logoText = "CHARACOM" }: PreloaderProps) {
                 }
           }
         >
-          <div className="container-site">
-            {/* Logo mask reveal */}
-            <div className="relative inline-block select-none font-display text-[clamp(2.5rem,8vw,6rem)] font-semibold leading-none tracking-[-0.03em]">
-              <span className="text-plaster/15">
-                {logoText}
-                <span className="text-gold/20">.</span>
-              </span>
-              <span
-                ref={maskRef}
-                className="absolute inset-0 text-plaster"
-                style={{ clipPath: "inset(0 100% 0 0)" }}
-              >
-                {logoText}
-                <span className="text-gold-bright">.</span>
-              </span>
-            </div>
-
-            {/* Gold hairline progress */}
-            <div className="mt-8 h-px w-full max-w-md overflow-hidden bg-white/10">
-              <div
-                ref={barRef}
-                className="h-full w-full origin-left scale-x-0 bg-gold"
-              />
-            </div>
+          {/* Small wordmark, top-left */}
+          <div className="absolute left-[var(--gutter)] top-8 flex items-baseline gap-3">
+            <span className="font-display text-2xl font-medium tracking-[0.02em]">
+              {logoText}
+              <span className="text-gold-bright">.</span>
+            </span>
+            <span className="hidden text-[0.6875rem] font-medium uppercase tracking-[0.3em] text-plaster/40 sm:inline">
+              Building Cyprus
+            </span>
           </div>
 
-          {/* Counter, bottom-right */}
-          <div className="absolute bottom-8 right-[var(--gutter)] font-display text-[clamp(1.5rem,4vw,2.5rem)] font-semibold tracking-[-0.02em] text-plaster/70 tabular-nums">
-            <span ref={counterRef}>0</span>
-            <span className="text-gold-bright">%</span>
+          {/* THE number — giant serif percentage, bottom-left */}
+          <div className="absolute bottom-[4vh] left-[var(--gutter)] font-display font-medium leading-none">
+            <span
+              ref={counterRef}
+              className="text-[clamp(7rem,24vw,19rem)] tracking-[-0.02em] text-plaster"
+            >
+              0
+            </span>
+            <span className="ml-2 align-top text-[clamp(1.75rem,4vw,3rem)] text-gold-bright">
+              %
+            </span>
+          </div>
+
+          {/* Hairline progress along the very bottom edge */}
+          <div className="absolute inset-x-0 bottom-0 h-0.5 overflow-hidden bg-white/10">
+            <div
+              ref={barRef}
+              className="h-full w-full origin-left scale-x-0 bg-gold"
+            />
           </div>
         </motion.div>
       )}

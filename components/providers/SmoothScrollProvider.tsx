@@ -29,6 +29,9 @@ export function SmoothScrollProvider({
       autoRaf: false,
       // Smooth-scroll anchor jumps too (skip-to-content, #hash links).
       anchors: true,
+      // Longer, expo-eased glide — the luxury-site scroll feel.
+      duration: 1.35,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     });
 
     lenis.on("scroll", () => ScrollTrigger.update());

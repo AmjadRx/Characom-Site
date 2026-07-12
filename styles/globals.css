@@ -59,8 +59,8 @@
   --color-accent-bright: var(--accent-bright);
   --color-accent-deep: var(--accent-deep);
 
-  --font-display: var(--font-space-grotesk), "Space Grotesk", sans-serif;
-  --font-body: var(--font-inter), "Inter", sans-serif;
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-body: var(--font-jost), "Jost", "Futura", sans-serif;
 
   --radius-input: 4px;
   --radius-card: 12px;
@@ -107,9 +107,9 @@ h2,
 h3,
 h4 {
   font-family: var(--font-display);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.06;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1.08;
 }
 
 /* Visible focus — gold ring, 2px offset (WCAG) */
@@ -144,8 +144,8 @@ h4 {
   align-items: center;
   gap: 0.75rem;
   font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
+  font-weight: 500;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--stone);
 }
@@ -171,17 +171,17 @@ h4 {
 .text-display-1 {
   font-family: var(--font-display);
   font-size: var(--text-display-1);
-  line-height: 1.02;
-  letter-spacing: -0.03em;
-  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  font-weight: 500;
 }
 
 .text-display-2 {
   font-family: var(--font-display);
   font-size: var(--text-display-2);
-  line-height: 1.06;
-  letter-spacing: -0.02em;
-  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.005em;
+  font-weight: 500;
 }
 
 .tabular-nums {

@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import type React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useMotionValue, useSpring } from "framer-motion";
+import { motion, useMotionValue, useSpring } from "motion/react";
 import { DUR, EASE_FM, STAGGER } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";
 import { Reveal } from "@/components/motion";

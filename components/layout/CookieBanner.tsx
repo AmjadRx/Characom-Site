@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { MorphButton } from "@/components/motion";
 import { useReducedMotionPref } from "@/components/providers";

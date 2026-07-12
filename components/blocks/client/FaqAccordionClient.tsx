@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { cn } from "@/lib/utils";
 import { useReducedMotionPref } from "@/components/providers";

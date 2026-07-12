@@ -2,7 +2,7 @@
 
 import { FormEvent, Suspense, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { useReducedMotionPref } from "@/components/providers/ReducedMotionProvider";
 import { Button } from "@/components/admin/ui";
 import { DUR } from "@/lib/motion/constants";

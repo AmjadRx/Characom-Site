@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { gsap } from "@/lib/motion/gsap";
 import { DUR, EASE, TRIGGER } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";

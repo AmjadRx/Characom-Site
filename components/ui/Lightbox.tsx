@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Image from "next/image";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";
 import { cn } from "@/lib/utils";

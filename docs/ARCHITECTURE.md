@@ -401,3 +401,22 @@ Operational notes:
 - If the repository is public, keep in mind inquiries contain personal data:
   either keep the repo private (recommended) or disable inquiry storage and
   use email-only notifications.
+
+## 15. Amendment — Luxury motion redesign (2026-07-12, owner directive)
+
+Owner directed a fluency/luxury pass on the same structure:
+
+- **Animation library:** `framer-motion` imports migrated to **Motion**
+  (motion.dev) via `motion/react` — same API family, canonical package.
+- **Typography:** Space Grotesk/Inter replaced with **Cormorant Garamond**
+  (display serif) + **Jost** (UI/body) — the DAMAC/Emaar-tier
+  luxury-property register (Emaar's identity is Optima-led; Cormorant is the
+  closest premium open-font equivalent). Display tracking relaxed for serif
+  set; kickers widened to 0.24em.
+- **Load counter:** the first thing a visitor sees on EVERY full page load is
+  a giant counting percentage (Preloader — sessionStorage gate removed), and
+  client-side route changes run the same counter on the transition panel
+  (PageTransitionProvider). Both are rAF-driven, hard-capped, and skipped
+  under reduced motion.
+- **Scroll feel:** Lenis tuned to a 1.35s expo-eased glide.
+- Palette, structure, routes, content model: unchanged.

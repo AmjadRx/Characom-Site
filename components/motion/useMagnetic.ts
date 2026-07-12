@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useSpring, type MotionValue } from "framer-motion";
+import { useSpring, type MotionValue } from "motion/react";
 import { MAGNETIC_RANGE, SPRING } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers/ReducedMotionProvider";
 

@@ -2,7 +2,7 @@
 
 import { useId, useRef } from "react";
 import type React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import type { ThemeColor } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import { SPRING } from "@/lib/motion/constants";

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion } from "motion/react";
 import { DUR, EASE_FM } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";
 

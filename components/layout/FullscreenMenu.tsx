@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { AnimatePresence, motion, type Variants } from "framer-motion";
+import { AnimatePresence, motion, type Variants } from "motion/react";
 import type { NavigationItem, SiteSettings } from "@/lib/content/types";
 import { DUR, EASE_FM, STAGGER } from "@/lib/motion/constants";
 import { useReducedMotionPref } from "@/components/providers";

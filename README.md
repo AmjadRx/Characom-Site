@@ -5,7 +5,8 @@ Group. Built to `docs/ARCHITECTURE.md` with one amendment: the stack is
 **Vercel + GitHub only** — the GitHub repository is the database.
 
 - **Framework:** Next.js 15 (App Router) · TypeScript strict · Tailwind CSS v4
-- **Motion:** GSAP 3 + ScrollTrigger · Framer Motion · Lenis · SplitType
+- **Motion:** GSAP 3 + ScrollTrigger · [Motion](https://motion.dev) (`motion/react`) · Lenis · SplitType
+- **Type:** Cormorant Garamond (display serif) + Jost — luxury-property identity; every full page load and route change opens with a counting load percentage
 - **Content:** JSON in [`/content`](content) — read via local fs in dev, via
   the GitHub Contents API in production; publishes revalidate instantly, no
   redeploy

@@ -1,15 +1,21 @@
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Cormorant_Garamond, Jost } from "next/font/google";
 
-export const spaceGrotesk = Space_Grotesk({
+/**
+ * Luxury pairing (à la Emaar's Optima-led identity / DAMAC's serif displays):
+ * a high-contrast garalde serif for display type, a refined geometric sans
+ * for UI and body. Loaded via next/font — self-hosted, zero layout shift.
+ */
+
+export const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-space-grotesk",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cormorant",
   display: "swap",
 });
 
-export const inter = Inter({
+export const jost = Jost({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-inter",
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-jost",
   display: "swap",
 });

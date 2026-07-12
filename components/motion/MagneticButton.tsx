@@ -1,7 +1,7 @@
 "use client";
 
 import type React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { MAGNETIC_RANGE } from "@/lib/motion/constants";
 import { cn } from "@/lib/utils";
 import { useMagnetic } from "./useMagnetic";

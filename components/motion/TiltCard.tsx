@@ -6,7 +6,7 @@ import {
   useMotionTemplate,
   useMotionValue,
   useSpring,
-} from "framer-motion";
+} from "motion/react";
 import { SPRING, TILT_MAX } from "@/lib/motion/constants";
 import { cn } from "@/lib/utils";
 import { useReducedMotionPref } from "@/components/providers/ReducedMotionProvider";

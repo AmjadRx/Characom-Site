@@ -8,7 +8,7 @@ import type {
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import type { NavigationItem, SiteSettings } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import { DUR, EASE, EASE_FM } from "@/lib/motion/constants";

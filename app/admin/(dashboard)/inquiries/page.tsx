@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import type { Inquiry, InquiryStatus, InquirySubject } from "@/lib/content/types";
 import { adminGet, adminSend } from "@/components/admin/api";
